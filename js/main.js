@@ -5,7 +5,7 @@
  */
 $(document).ready(function() {
 	OverEffectEducation();
-	OverEffectAcademicalProjects();
+	OverEffectMyProjects();
 	OverEffectWorkHistory();
 	OverEffectSkills();
 	OverEffectLanguages();
@@ -22,6 +22,7 @@ function OverEffectEducation(){
 	$( "#education").mouseover(function() {
 		document.getElementById("img-education").style.display = "none";
 		education.style.backgroundColor='#3a3a39';
+		education.style.opacity = "0.8";
 		/*$("#education").append("<p id='text-skills'>soxkdsconsnconscoiasn</p>").addClass("text-skills");*/
 		document.getElementById("education-text").style.display="initial";
 	});
@@ -30,24 +31,25 @@ function OverEffectEducation(){
 		/*$('#text-skills').remove();*/
 		document.getElementById("education-text").style.display="none";
   		education.style.backgroundColor = '#f7f7f7';
+  		education.style.opacity = "1";
    		document.getElementById("img-education").style.display = "initial";
 	});
 }
 
-function OverEffectAcademicalProjects(){
-	var academicalP = document.getElementById("academicalProjects");
+function OverEffectMyProjects(){
+	var myProjects = document.getElementById("myProjects");
 
-	$("#academicalProjects").mouseover(function(){
-		document.getElementById("img-academicalProjects").style.display="none";
-		academicalP.style.backgroundColor='#3a3a39';
-		document.getElementById("academicalProjects-text").style.display="initial";
+	$("#myProjects").mouseover(function(){
+		document.getElementById("img-myProjects").style.display="none";
+		myProjects.style.backgroundColor='#3a3a39';
+		document.getElementById("myProjects-text").style.display="initial";
 	});
 
-	$("#academicalProjects").mouseout(function(){
+	$("#myProjects").mouseout(function(){
 		/*$('#text-skills').remove();*/
-		document.getElementById("academicalProjects-text").style.display="none";
-  		academicalP.style.backgroundColor = '#f7f7f7';
-   		document.getElementById("img-academicalProjects").style.display = "initial";
+		document.getElementById("myProjects-text").style.display="none";
+  		myProjects.style.backgroundColor = '#f7f7f7';
+   		document.getElementById("img-myProjects").style.display = "initial";
 	});
 }
 function OverEffectWorkHistory(){
