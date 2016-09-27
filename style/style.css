@@ -1,0 +1,584 @@
+/* fonts */
+@font-face{
+    font-family: 'EurostileLTStd';
+    src: url("../font/EurostileLTStd.otf");
+}
+@font-face{
+    font-family: 'EurostileLTStd-Cn';
+    src: url("../font/EurostileLTStd-Cn.otf");
+}
+@font-face{
+    font-family: 'EurostileLTStd-Bold';
+    src: url("../font/EurostileLTStd-Bold.otf");
+}
+@font-face{
+    font-family: 'EurostileLTStd-BoldCn';
+    src: url("../font/EurostileLTStd-BoldCn.otf");
+}
+@font-face{
+    font-family: 'EurostileLTStd-Demi';
+    src: url("../font/EurostileLTStd-Demi.otf");
+}
+
+@font-face{
+    font-family: 'Kelson Sans Bold';
+    src: url("../font/Kelson Sans Bold.otf");
+}
+
+/* ======================== GENERAL ======================== */
+html {
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding:0;
+    position: relative;
+}
+body {
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding:0;
+    position: relative;
+    overflow-y: scroll;
+}
+h1{
+    font-family: 'Kelson Sans Bold';
+    font-size: 60px;
+    text-align: center;
+    color: black;
+}
+h2{
+    font-family: 'EurostileLTStd-Demi';
+    font-size: 20px;
+    color:#FF9966;
+    text-align: center;
+}
+h4{
+    font-family: 'EurostileLTStd-Demi';
+    text-align: center;
+    color: black;
+    line-height:1.5;
+}
+h5{
+    font-family: 'EurostileLTStd-Demi';
+    text-align: left;
+    margin-left: 10px;
+}
+
+.center{
+    text-align: center;
+}
+
+.row{
+    margin: 0;
+    /*border: 2px solid red;*/
+}
+/*.col-md-4, .col-md-8, .col-md-6, .col-md-3 {
+    border: 2px solid yellow;
+}*/
+
+/* ======================== NAVBAR ======================== */
+.navbar{
+    background-color: black;
+    border: none;
+    margin-bottom: 0px; 
+}
+
+.navbar-inverse{
+    background-color: transparent;
+}
+.navbar-inverse .navbar-toggle .icon-bar{
+    background-color: #FF9966;
+}
+.navbar-inverse .navbar-nav>li>a {
+    font-family: 'EurostileLTStd-Demi';
+    font-size: 16px;
+    color: #FF9966;
+
+}
+.navbar-inverse .navbar-nav > li > a:focus, 
+.navbar-inverse .navbar-nav > li > a:hover {
+    color: #ffffff; 
+}
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: transparent;
+}
+#navbar-index{
+    max-height: 5px;
+}
+#icon-menu{
+   color: #FF9966; 
+   padding-right: 2%; 
+}
+.dropdown:hover{
+    background-color: none;
+}
+.dropdown a{
+    font-family: 'EurostileLTPro';
+    font-size: 14px;
+    color: black;
+}
+.navbar-nav>li> .dropdown-menu{
+    background-color: black;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 0px; 
+}
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: white;
+    white-space: nowrap;
+    opacity: 1;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    color: #FF9966;
+    text-decoration: none;
+    background-color: white;
+    opacity: 1;
+}
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus, .dropdown-menu>.active>a:hover{
+    background-color: #FF9966;
+    opacity: 1;
+}
+.bnt-navbar, 
+.bnt-navbar:active, 
+.bnt-navbar:hover, 
+.bnt-navbar:focus {
+    text-decoration: none;
+    font-family: 'EurostileLTStd-Demi';
+    font-size: 16px;
+    color: #FF9966;
+    position: absolute;
+    margin-left: -100px;
+    border: 2px dotted white;
+    width: 200px;
+    padding: 12px 25px;
+    border-radius: 10px;
+
+}
+
+/* ======================== HOME ======================== */
+#home{
+    position: relative;
+}
+#bg-home {
+    background: url('../img/home-background.png') no-repeat center center fixed;
+    background-position: 
+    -webkit-background-size: cover; /*for Chrome*/
+    -moz-background-size: cover; /*for Firefox*/
+    -o-background-size: cover; /*for Opera*/
+    background-size: 100% auto; /*standard version */
+    height: 650px;  
+    width: 100%;
+}
+
+#diploma{
+    padding-top: 25px;
+}
+
+
+/* ======================== ABOUT ME ======================== */
+#aboutMe{
+    height: auto;
+    width: 100%;
+    background-color: #E4EBEE;
+    padding-bottom: 100px;
+}
+#header-aboutMe{
+    text-align: center;
+    padding-top: 50px;
+}
+#container-aboutMe{
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 50px;
+}
+
+#photo_aboutMe{
+    position: relative;
+    background-size: 100% auto;
+}
+.photo-circle{
+    border-radius: 50%;
+}
+#title-description h4{
+    font-family: 'EurostileLTStd-Demi';
+    text-align: justify;
+    padding-bottom: 0px;
+    padding-left: 60px;
+    padding-right: 80px;
+}
+#text-description p{
+    font-family: 'EurostileLTStd';
+    font-size: 14px;
+    text-align: justify;
+    padding-left: 60px;
+    padding-right: 80px;
+}
+
+#btn-goToSkills{
+    text-align: center;
+    display: inline-block;
+    font-family: 'EurostileLTStd-Demi';
+    color: #FF9966;
+    width: 160px;
+    padding: 12px 25px;
+    background: #e4ebee;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-left: 65px;
+    border-radius:10px;
+    border: 2px dotted #FF9966;
+}
+#btn-goToSkills:hover{
+    color: black;
+    border: 2px dotted black;
+}
+
+/* ======================== EDUCATION ======================== */
+#education{
+    margin-top: 0px;
+    height: auto;
+    width: 100%;
+    padding-bottom: 100px;
+    
+}
+#header-education{
+    text-align: center;
+    padding-top: 50px;
+}
+#container-education{
+    text-align: center;
+    padding-top: 80px;
+}
+#rombo{
+
+}
+.education-year{
+    margin-top: 10px;
+}
+.name-school{
+    padding-top: 10px;
+}
+.education-text{
+    display: none;
+    font-family: 'EurostileLTStd';
+    font-size: 14px;
+    text-align: justify;
+    color: black;
+    padding-top: 20px;
+    margin: 0px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+
+/*================== Skills ==================*/
+#skills{
+    height: auto;
+    width: 100%;
+    background-color: black;
+    padding-bottom: 100px;
+}
+/*#bg-skills{
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+}*/
+#header-skills{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#title-skills{
+    color: white;
+}
+
+#container-skills{
+    padding-top: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.skills-item{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.skills-title-info{
+    color: white;
+    margin-left: 0px;
+    padding-bottom: 20px;
+}
+#description-skills{
+    font-family: 'EurostileLTStd';
+    font-size: 14px;
+    text-align: justify;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+.line-skills{
+    position: relative;
+    height: 5px;
+    width: 100%;
+    border: 1px solid;
+    border-left: none;
+    border-right: none;
+    color: #FF9966;
+    margin-top: -5px;
+}
+
+/* ======================== PROJECT ======================== */
+#project{   
+    height: auto;
+    width: 100%;
+    background-color: #E4EBEE;
+    padding-bottom: 100px;
+}
+/*#bg-project{
+    position: absolute;
+    left: 0px;
+    margin-top: -15px;
+    z-index: -1;
+}*/
+#header-project{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#container-project{
+    padding-top: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.prj{
+    padding-top: 20px;
+}
+#title-project{
+    color: black;
+}
+
+/* ======================== LANGUAGES ======================== */
+#languages{
+    height: auto;
+    width: 100%;
+    padding-bottom: 100px;
+}
+#header-languages{
+    text-align: center;
+    padding-top: 50px;
+}
+
+#container-languages{
+    padding-top: 80px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.color-flag{
+    display: none;
+    text-align: center;
+}
+.bw-flag{
+    text-align: center;
+}
+
+.title-lang{
+    padding-top: 5%;
+
+}
+.lang-desc{
+    display: none;
+    font-family: 'EurostileLTStd';
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    padding-top: 2%;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+/* ======================== CONTACT ======================== */
+#contact{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    padding-bottom: 100px;
+}
+
+#header-contact{
+    text-align: center;
+    padding-top: 50px;
+}
+#title-contact{
+    color: white;
+}
+#container-contact{
+    text-align: center;
+    margin-top: 150px;
+    margin-right: 80px;
+    margin-left: 80px;
+
+}
+.text-contact h4{
+    color: white;
+}
+
+/* ======================== FOOTER ======================== */
+Footer{
+    background-color: black;
+    margin-bottom: 0px;
+    min-height: 50px;
+    width: 100%; 
+
+}
+#copyright{
+    font-family: 'EurostileLTPro';
+    color: #FF9966;
+    font-size: 12px;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+/* ====================================================== */
+/* ======================== MEDIA ======================= */
+/* ====================================================== */
+@media (max-width: 767px){
+    /* ===== GENERAL =====*/
+    h1{
+        font-size: 40px;
+    }
+    h4{
+        font-size: 16px;
+    }
+    /* ===== NAVBAR =====*/
+    .navbar-inverse .navbar-nav>li>a {
+        font-size: 14px;
+    }
+    .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a, 
+    .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:focus, 
+    .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:hover {
+
+        background-color: #FF9966;
+    }
+    /* ===== HOME =====*/
+    #diploma-title{
+        font-size: 16px;
+    }
+    /* ===== ABOUT ME =====*/
+    #container-aboutMe {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    #title-description h4{
+        padding-top: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #text-description p{
+        padding-top: 10px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    #btn-goToSkills {
+        margin-left: 30px;
+    }
+    /* ===== EDUCATION =====*/
+    .name-school{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #education-SAMT{
+        padding-top: 20px;
+    }
+    .education-text{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    /* ===== SKILLS =====*/
+    #container-skills {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .skills-item{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #description-skills{
+        padding-top: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    /* ===== PROJECT =====*/
+    .img-prj{
+        padding-top: 30px;
+
+    }
+
+    /*===== LANGUAGES =====*/
+    .lang-desc{
+        padding-bottom: 20px;
+    }
+
+    /*===== CONTACT =====*/
+    #contact{
+        height: auto;
+    }
+    #container-contact{
+        margin-top: 100px;
+        margin-left: 20px;
+        margin-right: 20px;
+
+    }
+    #row-two{
+        padding-top: 50px;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px){
+    /* ===== GENERAL =====*/
+
+    /*===== ABOUT ME =====*/
+    #title-description h4 {
+        padding-right: 60px;
+    }
+    #text-description p {
+        padding-right: 60px;
+    }
+    #btn-goToSkills {
+        margin-left: 55px;
+    }
+
+    /*===== EDUCATION =====*/
+    #container-education{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+
+    .education-text {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    /*===== LANGUAGES =====*/
+    .img-flag{
+        height: 50%;
+        width: 50%;
+    }
+
+    /*===== CONTACT =====*/
+    #container-contact {
+        margin-top: 300px;
+    
+    }
+}
