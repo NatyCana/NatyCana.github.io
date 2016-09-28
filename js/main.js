@@ -31,8 +31,8 @@ $(document).ready(function() {
 });
 
 /*Height and Witdh Banner_Index.jpg*/
-var bannerImgWidth = 1500;
-var bannerImgHeight = 1131;
+var bannerImgWidth = 2133;
+var bannerImgHeight = 1600;
 
 
 function setUpBGHome() {
@@ -52,11 +52,20 @@ function setUpBGHome() {
     $('#bg-home').css('backgroundSize', 'auto 100%');
 
     console.log(targetHeight);
-    if (targetHeight > 250){
-        $('.bnt-navbar').css('marginTop', (targetHeight / 3 * 2) +'px');
+    if (targetHeight > 590){
+        $('.bnt-navbar').css('marginTop', '525px');
+        $('.bnt-navbar').css('font-size', '16px');
+        $('.bnt-navbar').css('width', '200px');
+        $('.bnt-navbar').css('padding', '12px 25px');
+        $('.bnt-navbar').css('margin-left', '-100px');
     }
     else{
-        $('.bnt-navbar').css('marginTop', (targetHeight / 3 * 1) +'px');
+        $('.bnt-navbar').css('marginTop', (targetHeight / 3 * 2) +'px');
+        $('.bnt-navbar').css('font-size', '12px');
+        $('.bnt-navbar').css('width', '165px');
+        $('.bnt-navbar').css('padding', '5px 25px');
+        $('.bnt-navbar').css('margin-left', '-85px');
+
     }
 
 

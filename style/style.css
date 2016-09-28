@@ -156,10 +156,13 @@ h5{
     color: #FF9966;
     position: absolute;
     margin-left: -100px;
-    border: 2px dotted white;
+    border-style: double;
+    border-color: #D9D9DA;
+    border-width: 4px;
     width: 200px;
     padding: 12px 25px;
     border-radius: 10px;
+
 
 }
 
@@ -180,6 +183,9 @@ h5{
 
 #diploma{
     padding-top: 25px;
+}
+#diploma h2{
+    font-family: 'Kelson Sans Bold';
 }
 
 
@@ -237,6 +243,7 @@ h5{
     margin-left: 65px;
     border-radius:10px;
     border: 2px dotted #FF9966;
+
 }
 #btn-goToSkills:hover{
     color: black;
@@ -527,6 +534,10 @@ Footer{
     /*===== LANGUAGES =====*/
     .lang-desc{
         padding-bottom: 20px;
+    }
+        .img-flag{
+        height: 50%;
+        width: 50%;
     }
 
     /*===== CONTACT =====*/
