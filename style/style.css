@@ -171,7 +171,7 @@ h5{
     position: relative;
 }
 #bg-home {
-    background: url('../img/home-background.png') no-repeat center center fixed;
+    background: url('../img/home-background-2.png') no-repeat center center fixed;
     background-position: 
     -webkit-background-size: cover; /*for Chrome*/
     -moz-background-size: cover; /*for Firefox*/
@@ -272,6 +272,7 @@ h5{
 .education-year{
     margin-top: 10px;
 }
+
 .name-school{
     padding-top: 10px;
 }
@@ -310,6 +311,7 @@ h5{
 }
 
 #container-skills{
+    border: 2px solid red;
     padding-top: 80px;
     padding-left: 50px;
     padding-right: 50px;
@@ -324,13 +326,19 @@ h5{
     padding-bottom: 20px;
 }
 #description-skills{
+    border: 2px solid green;
     font-family: 'EurostileLTStd';
     font-size: 14px;
     text-align: justify;
     color: white;
+    margin-top: 40px;
+    margin-bottom: 60px;
     padding-left: 20px;
     padding-right: 20px;
 
+}
+#media-skills-title{
+    color: white;
 }
 
 .line-skills{
@@ -343,7 +351,35 @@ h5{
     color: #FF9966;
     margin-top: -5px;
 }
-
+.circle {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px; 
+    border: 2px solid #FF9966;
+    background-color: #FF9966;
+    margin-left: 180px;
+    margin-top: -27px;
+}
+.white{
+    border: 2px solid white;
+    background-color: white;
+}
+#circle-two{
+    margin-left: 210px;
+    margin-top: -20px;
+}
+#circle-three{
+    margin-left: 240px;
+    margin-top: -20px;
+}
+#circle-four{
+    margin-left: 270px;
+    margin-top: -20px;
+}
+#circle-five{
+    margin-left: 300px;
+    margin-top: -20px;
+}
 /* ======================== PROJECT ======================== */
 #project{   
     height: auto;
@@ -373,6 +409,11 @@ h5{
 #title-project{
     color: black;
 }
+.circle-photo-project{
+    border-radius: 50%;
+}
+
+
 
 /* ======================== LANGUAGES ======================== */
 #languages{
