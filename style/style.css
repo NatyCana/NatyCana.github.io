@@ -61,7 +61,7 @@ h4{
 }
 h5{
     font-family: 'EurostileLTStd-Demi';
-    text-align: left;
+    
     margin-left: 10px;
 }
 
@@ -156,7 +156,7 @@ h5{
     color: #FF9966;
     position: absolute;
     margin-left: -100px;
-    border-style: double;
+    border-style: dotted;
     border-color: #D9D9DA;
     border-width: 4px;
     width: 200px;
@@ -217,14 +217,14 @@ h5{
     font-family: 'EurostileLTStd-Demi';
     text-align: justify;
     padding-bottom: 0px;
-    padding-left: 60px;
+    padding-left: 100px;
     padding-right: 80px;
 }
 #text-description p{
     font-family: 'EurostileLTStd';
     font-size: 14px;
     text-align: justify;
-    padding-left: 60px;
+    padding-left: 100px;
     padding-right: 80px;
 }
 
@@ -240,7 +240,7 @@ h5{
     font-size: 16px;
     text-decoration: none;
     margin-top: 10px;
-    margin-left: 65px;
+    margin-left: 100px;
     border-radius:10px;
     border: 2px dotted #FF9966;
 
@@ -273,8 +273,11 @@ h5{
     margin-top: 10px;
 }
 
-.name-school{
+.name-diploma{
     padding-top: 10px;
+}
+.school h5{
+    text-align: center;
 }
 .education-text{
     display: none;
@@ -540,7 +543,7 @@ Footer{
         margin-left: 30px;
     }
     /* ===== EDUCATION =====*/
-    .name-school{
+    .name-diploma{
         padding-left: 20px;
         padding-right: 20px;
     }
@@ -551,20 +554,24 @@ Footer{
         padding-left: 20px;
         padding-right: 20px;
     }
+    .diploma{
+        color:#FF9966;
+    }
     /* ===== SKILLS =====*/
     #container-skills {
         padding-left: 20px;
         padding-right: 20px;
     }
     .skills-item{
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 0px;
+        padding-right: 0px;
     }
     #description-skills{
         padding-top: 50px;
         padding-left: 10px;
         padding-right: 10px;
     }
+
     /* ===== PROJECT =====*/
     .img-prj{
         padding-top: 30px;
@@ -619,6 +626,15 @@ Footer{
     .education-text {
         padding-left: 10px;
         padding-right: 10px;
+    }
+
+    /*===== SKILLS =====*/
+    #container-skills{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #description-skills{
+        margin-top: 5px;
     }
 
     /*===== LANGUAGES =====*/

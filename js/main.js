@@ -54,7 +54,7 @@ function setUpBGHome() {
     $('#bg-home').css('backgroundSize', 'auto 100%');
 
     console.log(targetHeight);
-    if (targetHeight > 590){
+    if ((targetHeight > 590)&&(targetHeight < 1023)){
         $('.bnt-navbar').css('marginTop', '525px');
         $('.bnt-navbar').css('font-size', '16px');
         $('.bnt-navbar').css('width', '200px');
