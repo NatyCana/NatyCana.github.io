@@ -155,7 +155,6 @@ h5{
 #home {
   background: url('../img/home-background.png') no-repeat center center fixed;
   display: table;
-  display: block;
   height: 100%;
   position: relative;
   width: 100%;
@@ -536,6 +535,9 @@ Footer{
         font-size: 16px;
     }
     /* ===== HOME =====*/
+    #home{
+        background-attachment:scroll;
+    }
       .section-header h1 {
         font-size: 60px;
       }
@@ -623,6 +625,9 @@ Footer{
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991px){
     /* ===== GENERAL =====*/
+    #home{
+        background-attachment:scroll;
+    }
 
     /*===== ABOUT ME =====*/
     #title-description h4 {
