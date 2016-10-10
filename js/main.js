@@ -1,13 +1,7 @@
 $(document).ready(function() {
-    setUpBGHome();
-    $(window).resize(setUpBGHome);
-
-    $('body').scrollspy({ target: '#navbar-index' });
-    
     LowScroll();
-
-
-    /*Education*/
+    setUpWidthSection();
+     /*Education*/
     OverEffectEducationHEIG();
     OverEffectEducationSAMT();
     
@@ -26,60 +20,12 @@ $(document).ready(function() {
     OverEnglishFlag();
     OverGermanFlag();
 
-
-
-
-
 });
-
-/*Height and Witdh Banner_Index.jpg*/
-var bannerImgWidth = 2133;
-var bannerImgHeight = 1600;
-
-
-function setUpBGHome() {
-    var minHeight = 200;
-    /*Windows Height*/
-    var targetHeight = ($(window).height());
-    if (targetHeight < minHeight) {
-        targetHeight = minHeight;
-    }
-    /*Windows Width*/
-    var targetWidth = $(window).width();
-    var relativeWidth = targetHeight / bannerImgHeight * bannerImgWidth; 
-    
-    /*------------------------CSS Style----------------------------------*/    
-    $('#bg-home').css('height', targetHeight +'px');
-    
-    $('#bg-home').css('backgroundSize', 'auto 100%');
-
-    console.log(targetHeight);
-    if ((targetHeight > 590)&&(targetHeight < 1023)){
-        $('.bnt-navbar').css('marginTop', '525px');
-        $('.bnt-navbar').css('font-size', '16px');
-        $('.bnt-navbar').css('width', '200px');
-        $('.bnt-navbar').css('padding', '12px 25px');
-        $('.bnt-navbar').css('margin-left', '-100px');
-    }
-    else{
-        $('.bnt-navbar').css('marginTop', (targetHeight / 3 * 2) +'px');
-        $('.bnt-navbar').css('font-size', '12px');
-        $('.bnt-navbar').css('width', '165px');
-        $('.bnt-navbar').css('padding', '5px 25px');
-        $('.bnt-navbar').css('margin-left', '-85px');
-
-    }
-
-
-    if (relativeWidth < targetWidth) {
-        $('#bg-home').css('backgroundSize', '100% auto');
-    }    
-}
 
 /*=========== BASIC FUNCTION ===========*/
 function LowScroll(){
     
-    $("#navbar-home a").on('click', function(event) {
+    $("#home a").on('click', function(event) {
 
         // Prevent default anchor click behavior
         event.preventDefault();
@@ -98,24 +44,21 @@ function LowScroll(){
         });
     });
 
-    $("#text-description a").on('click', function(event) {
-
-        event.preventDefault();
-
-        // Store hash
-        var hash = this.hash;
-
-        // Using jQuery's animate() method to add smooth page scroll
-        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-        $('html, body').animate({
-            scrollTop: $(hash).offset().top
-            }, 1000, function(){
-   
-                // Add hash (#) to URL when done scrolling (default click behavior)
-                window.location.hash = hash;
-            });
-    });
 }
+
+function setUpWidthSection() {
+
+    /*Windows Height*/
+    var targetHeight = ($(window).height());
+    
+    /*Windows Width*/
+    var targetWidth = $(window).width();
+    
+    /*------------------------CSS Style----------------------------------*/    
+    
+    
+}
+
 /*=========== EDUCATION FUNCTION ===========*/
 function OverEffectEducationHEIG(){
     $( "#education-HEIG").mouseover(function() {
@@ -261,4 +204,3 @@ function OverGermanFlag(){
     });
 
 }
-

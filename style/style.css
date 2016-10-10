@@ -24,22 +24,10 @@
     font-family: 'Kelson Sans Bold';
     src: url("../font/Kelson Sans Bold.otf");
 }
-
 /* ======================== GENERAL ======================== */
-html {
-    height: 100%;
-    width: 100%;
-    margin:0;
-    padding:0;
-    position: relative;
-}
-body {
-    height: 100%;
-    width: 100%;
-    margin:0;
-    padding:0;
-    position: relative;
-    overflow-y: scroll;
+body,html {
+  height: 100%;
+  width: 100%;
 }
 h1{
     font-family: 'Kelson Sans Bold';
@@ -73,9 +61,7 @@ h5{
     margin: 0;
     /*border: 2px solid red;*/
 }
-/*.col-md-4, .col-md-8, .col-md-6, .col-md-3 {
-    border: 2px solid yellow;
-}*/
+
 
 /* ======================== NAVBAR ======================== */
 .navbar{
@@ -165,29 +151,67 @@ h5{
 
 
 }
-
 /* ======================== HOME ======================== */
-#home{
+#home {
+  background: url('../img/home-background.png') no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+.section-header {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+
+}
+
+.section-header h1 {
+  letter-spacing: 0.1em;
+    font-weight: 100;
+    font-size: 96px;  
+    color: white;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+
+}
+.section-header h3 {
+    letter-spacing: 0.1em;
+    font-weight: 100;
+    font-family: 'Kelson Sans Bold';
+    color: #FF9966;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+
+}
+
+a.scroll-arrow {
+    font-size: 35px;
+    color: white;
+    width: 50px;
+    line-height: 52px;
+    border-radius: 50%;
+    height: 50px;
+    border: 1px solid white;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+}
+.separator-container {
+    text-align: center;
     position: relative;
 }
-#bg-home {
-    background: url('../img/home-background-2.png') no-repeat center center fixed;
-    background-position: 
-    -webkit-background-size: cover; /*for Chrome*/
-    -moz-background-size: cover; /*for Firefox*/
-    -o-background-size: cover; /*for Opera*/
-    background-size: 100% auto; /*standard version */
-    height: 650px;  
-    width: 100%;
+.section-header .separator {
+    margin: 0em auto 2em;
 }
-
-#diploma{
-    padding-top: 25px;
-}
-#diploma h2{
-    font-family: 'Kelson Sans Bold';
-}
-
 
 /* ======================== ABOUT ME ======================== */
 #aboutMe{
@@ -510,20 +534,13 @@ Footer{
     h4{
         font-size: 16px;
     }
-    /* ===== NAVBAR =====*/
-    .navbar-inverse .navbar-nav>li>a {
-        font-size: 14px;
-    }
-    .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a, 
-    .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:focus, 
-    .navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:hover {
-
-        background-color: #FF9966;
-    }
     /* ===== HOME =====*/
-    #diploma-title{
-        font-size: 16px;
-    }
+      .section-header h1 {
+        font-size: 60px;
+      }
+      a.scroll-arrow{
+        left: 45%;
+      }
     /* ===== ABOUT ME =====*/
     #container-aboutMe {
         padding-left: 0px;

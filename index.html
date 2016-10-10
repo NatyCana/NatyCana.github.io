@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Home</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="style/style.css">
-  <link rel="stylesheet" type="text/css" href="style/index.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-  <script src="bootstrap/js/bootstrap.min.js"></script>
-  <script src="js/main.js"></script>
-</head>
-  <body data-spy="scroll" data-target="#navbar-index">
-    <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar-index">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+    <body data-spy="scroll" data-target="#navbar-index">
+       <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar-index">
       <div class="container">
         
         <div id="navbar" class="navbar-collapse pull-right">
@@ -49,160 +56,163 @@
         </div>
       </div>
     </nav>
-    <section id="home">
-      <div class="content-home">
-        <div id="bg-home">
-          <div class="row" id="diploma">
-            <!--<h2>Media Engineer</h2>-->
-          </div> 
-          <div class="row center" id="navbar-home">
-            <a class="bnt-navbar" href="#aboutMe">Go into my world</a>
-          </div>
-        </div>        
-      </div>
-    </section>
-    <section id="aboutMe">
-      <header id="header-aboutMe">
-        <h1 id="title-aboutMe">About me</h1>
-      </header>
-      <div id="container-aboutMe">
-        <div class="row" id="row-aboutMe">
-          <div class="col-sm-4 col-md-4 center">
-            <img src="img/me.png" class="photo-circle" id="photo_aboutMe">
-          </div>
+        <section id="home" class="home">
+            <div class="section-header">
+                <h1>Natalie Canonica</h1>
+                <div class="separator-container">
+                    <div class="separator line-separator">∎</div>
+                </div>
+                <h3>Media engineer</h3>
+                <a href="#aboutMe" data-scroll="true" class="scroll-arrow">
+                    <span class="glyphicon glyphicon glyphicon-menu-down" aria-hidden="true"></span>
+                </a>
+            </div>
+        </section>
+        <section id="aboutMe">
+            <header id="header-aboutMe">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-4 col-md-4 col-lg-4"></div>
+                        <div class="col-sm-4 col-md-4 col-lg-4">
+                            <img src="img/logo.png" class=".center-block" alt="Responsive image">
+                        </div>
+                        <div class="col-sm-4 col-md-4 col-lg-4"></div>
+                    </div>
+                </div>
+            </header>
+            <div id="container-aboutMe">
+                <div class="row" id="row-aboutMe">
+                    <div class="col-sm-4 col-md-4 col-lg-4 center">
+                        <img src="img/me.png" class="photo-circle" id="photo_aboutMe">
+                    </div>
           
-          <div class="col-sm-8 col-md-8">
-            <div class="row" id="title-description">
-              <h4> I am a media engineer with a major in print and interactive media management</h4>
-            </div>
+                    <div class="col-sm-8 col-md-8 col-lg-8">
+                        <div class="row" id="title-description">
+                            <h4> I am a media engineer with a major in print and interactive media management</h4>
+                        </div>
 
-            <div class="row" id="text-description">
-              <p> I have a Bachelor of Science HES-SO in Media Engineering and a Diploma in Information Technology.
-                  Now I am searching for a fixed work or fon an internship in the web design or print sector or in a project management.
-                  <br>
-                   During my degree I developed a lot of extensive knlowledge in the world of the Media and now I am motivated to put into practice my varied knowledge, my creative and organised skills.
-              </p>
-              <a href="#skills" class="btn" id="btn-goToSkills" role="button">Go to my skills</a>
+                        <div class="row" id="text-description">
+                            <p> I have a Bachelor of Science HES-SO in Media Engineering and a Diploma in Information Technology.
+                            Now I am searching for a fixed work or fon an internship in the web design or print sector or in a project management.
+                            <br>
+                            During my degree I developed a lot of extensive knlowledge in the world of the Media and now I am motivated to put into practice my varied knowledge, my creative and organised skills.
+                            </p>
+                            <a href="#skills" class="btn" id="btn-goToSkills" role="button">Go to my skills</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
+        </section>
+        <section id="education">
+            <header id="header-education">
+                <h1 id="title-education">Education</h1>
+            </header>
+            <div id="container-education">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6" id="education-HEIG">
+                        <div class="row">
+                            <img src="img/rombo.png" id="rombo">
+                        </div>
+                        <div class="row education-year">
+                            <h4>2011 - 2015</h4>
+                        </div>
+                        <div class="row name-diploma">
+                            <h4 class="diploma">Bachelor of Science HES-SO in Media Engineering</h4>
+                            <h5 class="school">University of Applied Sciences Western Switzerland</h5>
+                        </div>
+                        <div class="row education-text" id="education-text-heig">
+                            <p>The Bachelor of Science HES-SO in Media Engineering builds the versatile engineer the technologies of information and the communication, the marketing, the management and the communication 3.0.
+                            <br>
+                            Via the Internet, the digital media gives the possibility of having a variety of professional profiles. During the study, the students are brought to develop their skills.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6" id="education-SAMT"> 
+                        <div class="row">
+                            <img src="img/rombo.png" id="rombo">
+                        </div>
+                        <div class="row education-year">
+                            <h4>2007 - 2011</h4>
+                        </div>
+                        <div class="row name-diploma">
+                            <h4 class="diploma">Diploma in Information Technology</h5>
+                            <h5 class="school">IT-Technician studies at School of Arts & Trades</h5>
+                        </div>
+                        <div class="row education-text" id="education-text-samt">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et nisi nisi.
+                            Donec in enim quis magna tristique cursus vel non ligula.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="skills">
+            <header id="header-skills">
+                <h1 id="title-skills">Skills</h1>
+            </header>
+            <div id="container-skills">
+                <div class="row">
+                    <div class="col-sm-6 col-md-6 skills-item">
+                        <div class="row skills-title-info" style="width: 100%; visibility: visible;">
+                            <h5>Web developpment</h5>
+                            <div class="circle"></div>
+                            <div class="circle" id="circle-two"></div>
+                            <div class="circle" id="circle-three"></div>
+                            <div class="circle" id="circle-four"></div>
+                            <div class="circle" id="circle-five"></div>
+                        </div>
+                        <div class="row skills-title-info" style="width: 80%; visibility: visible;">
+                            <h5>UI / UX Design</h5>
+                            <div class="circle"></div>
+                            <div class="circle" id="circle-two"></div>
+                            <div class="circle" id="circle-three"></div>
+                            <div class="circle" id="circle-four"></div>
+                            <div class="circle white" id="circle-five"></div>
+                        </div>
+                        <div class="row skills-title-info" style="width: 60%; visibility: visible;">
+                            <h5>Web design</h5>
+                            <div class="circle"></div>
+                            <div class="circle" id="circle-two"></div>
+                            <div class="circle" id="circle-three"></div>
+                            <div class="circle white" id="circle-four"></div>
+                            <div class="circle white" id="circle-five"></div>
+                        </div>
+                        <div class="row skills-title-info" style="width: 60%; visibility: visible;">
+                            <h5>Responsive design</h5>
+                            <div class="circle"></div>
+                            <div class="circle" id="circle-two"></div>
+                            <div class="circle" id="circle-three"></div>
+                            <div class="circle" id="circle-four"></div>
+                            <div class="circle white" id="circle-five"></div>
+                        </div>
+                        <div class="row skills-title-info" style="width: 100%; visibility: visible;">
+                            <h5>Design layout</h5>
+                            <div class="circle"></div>
+                            <div class="circle" id="circle-two"></div>
+                            <div class="circle" id="circle-three"></div>
+                            <div class="circle" id="circle-four"></div>
+                            <div class="circle" id="circle-five"></div>
+                        </div>
+                        <div class="row skills-title-info" style="width: 80%; visibility: visible;">
+                            <h5>Project management</h5>
+                            <div class="circle"></div>
+                            <div class="circle" id="circle-two"></div>
+                            <div class="circle" id="circle-three"></div>
+                            <div class="circle" id="circle-four"></div>
+                            <div class="circle white" id="circle-five"></div>
+                        </div>
+                    </div>
+                <div class="col-sm-6 col-md-6">
+                    <p id="description-skills">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lobortis tempus arcu a semper. Quisque ut nunc nisi. Vestibulum neque erat, pellentesque in consectetur nec, consequat at eros. Curabitur rutrum erat et venenatis cursus.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lobortis tempus arcu a semper. Quisque ut nunc nisi.
+                    <br><br>
+                    Vestibulum neque erat, pellentesque in consectetur nec, consequat at eros. Curabitur rutrum erat et venenatis cursus.
+                    </p>
+                </div>
+            </div>
         </div>
-      </div>
-    </section>
-    <section id="education">
-      <header id="header-education">
-        <h1 id="title-education">Education</h1>
-      </header>
-      <div id="container-education">
-        <div class="row">
-          <div class="col-sm-6 col-md-6" id="education-HEIG">
-            <div class="row">
-              <img src="img/rombo.png" id="rombo">
-            </div>
-            <div class="row education-year">
-              <h4>2011 - 2015</h4>
-            </div>
-            <div class="row name-diploma">
-              <h4 class="diploma">Bachelor of Science HES-SO in Media Engineering</h4>
-              <h5 class="school">University of Applied Sciences Western Switzerland</h5>
-            </div>
-            <div class="row education-text" id="education-text-heig">
-              <p>The Bachelor of Science HES-SO in Media Engineering builds the versatile engineer the technologies of information and the communication, the marketing, the management and the communication 3.0.
-                <br>
-                Via the Internet, the digital media gives the possibility of having a variety of professional profiles. During the study, the students are brought to develop their skills.</p>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-6" id="education-SAMT"> 
-            <div class="row">
-              <img src="img/rombo.png" id="rombo">
-            </div>
-            <div class="row education-year">
-              <h4>2007 - 2011</h4>
-            </div>
-            <div class="row name-diploma">
-              <h4 class="diploma">Diploma in Information Technology</h5>
-              <h5 class="school">IT-Technician studies at School of Arts & Trades</h5>
-            </div>
-            <div class="row education-text" id="education-text-samt">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et nisi nisi.
-              Donec in enim quis magna tristique cursus vel non ligula.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="skills">
-      <header id="header-skills">
-        <h1 id="title-skills">Skills</h1>
-      </header>
-      <div id="container-skills">
-        <div class="row">
-          <div class="col-sm-6 col-md-6 skills-item">
-            <div class="row skills-title-info" style="width: 100%; visibility: visible;">
-              <h5>Web developpment</h5>
-              <div class="circle"></div>
-              <div class="circle" id="circle-two"></div>
-              <div class="circle" id="circle-three"></div>
-              <div class="circle" id="circle-four"></div>
-              <div class="circle" id="circle-five"></div>
-            </div>
-            <div class="row skills-title-info" style="width: 80%; visibility: visible;">
-              <h5>UI / UX Design</h5>
-              <div class="circle"></div>
-              <div class="circle" id="circle-two"></div>
-              <div class="circle" id="circle-three"></div>
-              <div class="circle" id="circle-four"></div>
-              <div class="circle white" id="circle-five"></div>
-              <!--<div class="line-skills">
-              </div>-->
-            </div>
-            <div class="row skills-title-info" style="width: 60%; visibility: visible;">
-              <h5>Web design</h5>
-              <div class="circle"></div>
-              <div class="circle" id="circle-two"></div>
-              <div class="circle" id="circle-three"></div>
-              <div class="circle white" id="circle-four"></div>
-              <div class="circle white" id="circle-five"></div>
-            </div>
-            <div class="row skills-title-info" style="width: 60%; visibility: visible;">
-              <h5>Responsive design</h5>
-              <div class="circle">
-              </div>
-              <div class="circle" id="circle-two"></div>
-              <div class="circle" id="circle-three"></div>
-              <div class="circle" id="circle-four"></div>
-              <div class="circle white" id="circle-five"></div>
-            </div>
-            <div class="row skills-title-info" style="width: 100%; visibility: visible;">
-              <h5>Design layout</h5>
-              <div class="circle">
-              </div>
-              <div class="circle" id="circle-two"></div>
-              <div class="circle" id="circle-three"></div>
-              <div class="circle" id="circle-four"></div>
-              <div class="circle" id="circle-five"></div>
-            </div>
-            <div class="row skills-title-info" style="width: 80%; visibility: visible;">
-              <h5>Project management</h5>
-              <div class="circle">
-              </div>
-              <div class="circle" id="circle-two"></div>
-              <div class="circle" id="circle-three"></div>
-              <div class="circle" id="circle-four"></div>
-              <div class="circle white" id="circle-five"></div>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-6">
-            <p id="description-skills">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lobortis tempus arcu a semper. Quisque ut nunc nisi. Vestibulum neque erat, pellentesque in consectetur nec, consequat at eros. Curabitur rutrum erat et venenatis cursus.
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lobortis tempus arcu a semper. Quisque ut nunc nisi.
-            <br><br>
-            Vestibulum neque erat, pellentesque in consectetur nec, consequat at eros. Curabitur rutrum erat et venenatis cursus.
-            </p>
-          </div>
-        </div>
-      </div>
     </section> 
     <section id="project">
-      <header id="header-project">
+        <header id="header-project">
         <h1 id="title-project">My Projects</h1>
       </header>
       <div id="container-project">
@@ -223,23 +233,6 @@
             </div>
           </div>
         </div>
-        <!--<div class="row prj">
-          <div class="col-sm-4 col-md-4 center">
-            <div class="row prj-img">
-              <img src="img/img-project.png" class="img-prj">
-            </div>
-          </div>
-          <div class="col-sm-4 col-md-4 center">
-            <div class="row prj-img">
-              <img src="img/img-project.png" class="img-prj">
-            </div>
-          </div>
-          <div class="col-sm-4 col-md-4 center">
-            <div class="row prj-img">
-              <img src="img/img-project.png" class="img-prj">
-            </div>
-          </div>
-        </div>-->
       </div>
     </section>
     <section id="languages">
@@ -334,5 +327,14 @@
     <footer>
       <div id="copyright">© 2016 Natalie Canonica</div> 
     </footer>
+  
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
   </body>
 </html>
+
