@@ -155,6 +155,7 @@ h5{
 #home {
   background: url('../img/home-background.png') no-repeat center center fixed;
   display: table;
+  display: block;
   height: 100%;
   position: relative;
   width: 100%;
