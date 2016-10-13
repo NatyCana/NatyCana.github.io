@@ -1,6 +1,6 @@
 $(document).ready(function() {
     LowScroll();
-    setUpWidthSection();
+
      /*Education*/
     OverEffectEducationHEIG();
     OverEffectEducationSAMT();
@@ -13,7 +13,7 @@ $(document).ready(function() {
     OverPrjThree();
     OverPrjFour();
 
-
+   
     /*Languages*/
     OverItalianFlag();
     OverFrenchFlag();
@@ -46,18 +46,6 @@ function LowScroll(){
 
 }
 
-function setUpWidthSection() {
-
-    /*Windows Height*/
-    var targetHeight = ($(window).height());
-    
-    /*Windows Width*/
-    var targetWidth = $(window).width();
-    
-    /*------------------------CSS Style----------------------------------*/    
-    
-    
-}
 
 /*=========== EDUCATION FUNCTION ===========*/
 function OverEffectEducationHEIG(){

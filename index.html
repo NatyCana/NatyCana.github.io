@@ -10,6 +10,7 @@
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link rel="stylesheet" href="style/animate.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -19,50 +20,54 @@
     <![endif]-->
   </head>
     <body data-spy="scroll" data-target="#navbar-index">
-       <nav class="navbar navbar-inverse navbar-fixed-top" id="navbar-index">
-      <div class="container">
-        
-        <div id="navbar" class="navbar-collapse pull-right">
-          <ul class="nav navbar-nav navbar-right">
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                <span class="glyphicon glyphicon-menu-hamburger" id="icon-menu" aria-hidden="true"></span>
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a href="#home">Home</a>
-                </li>
-                <li>
-                  <a href="#aboutMe">About me</a>
-                </li>
-                <li>
-                  <a href="#education">Education</a>
-                </li>
-                <li>
-                  <a href="#skills">Skills</a>
-                </li>
-                <li>
-                  <a href="#project">My projects</a>
-                </li>
-                <li>
-                  <a href="#languages">Languages</a>
-                </li>
-                <li>
-                  <a href="#contact">Contact</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+      <nav class="navbar navbar-inverse navbar-fixed-top " id="navbar-index">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed"  data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <!--<a class="navbar-brand" href="#"><img src="img/logo_en_white.png"></a>-->
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="#home">Home</a>
+              </li>
+              <li>
+                <a href="#aboutMe">About me</a>
+              </li>
+              <li>
+                <a href="#education">Education</a>
+              </li>
+              <li>
+                <a href="#skills">Skills</a>
+              </li>
+              <li>
+                <a href="#project">My projects</a>
+              </li>
+              <li>
+                <a href="#languages">Languages</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
         <section id="home" class="home">
             <div class="section-header">
-                <h1>Natalie Canonica</h1>
+                <h1 class="animated fadeInLeftBig" id="myName">Natalie Canonica</h1>
                 <div class="separator-container">
-                    <div class="separator line-separator">∎</div>
+                    <div class="separator line-separator"></div>
                 </div>
-                <h3>Media engineer</h3>
+                <h3 class="animated slideInUp">Media engineer</h3>
                 <a href="#aboutMe" data-scroll="true" class="scroll-arrow">
                     <span class="glyphicon glyphicon glyphicon-menu-down" aria-hidden="true"></span>
                 </a>
@@ -74,7 +79,7 @@
                     <div class="row">
                         <div class="col-sm-4 col-md-4 col-lg-4"></div>
                         <div class="col-sm-4 col-md-4 col-lg-4">
-                            <img src="img/logo.png" class=".center-block" alt="Responsive image">
+                            <img src="img/logo_en.png" class=".center-block" alt="Responsive image">
                         </div>
                         <div class="col-sm-4 col-md-4 col-lg-4"></div>
                     </div>
@@ -155,50 +160,50 @@
                         <div class="row skills-title-info" style="width: 100%; visibility: visible;">
                             <h5>Web developpment</h5>
                             <div class="circle"></div>
-                            <div class="circle" id="circle-two"></div>
-                            <div class="circle" id="circle-three"></div>
-                            <div class="circle" id="circle-four"></div>
-                            <div class="circle" id="circle-five"></div>
+                            <div class="circle animated zoomIn animate-1" id="circle-two"></div>
+                            <div class="circle animated zoomIn animate-2" id="circle-three"></div>
+                            <div class="circle animated zoomIn animate-3" id="circle-four"></div>
+                            <div class="circle animated zoomIn animate-4" id="circle-five"></div>
                         </div>
                         <div class="row skills-title-info" style="width: 80%; visibility: visible;">
                             <h5>UI / UX Design</h5>
                             <div class="circle"></div>
-                            <div class="circle" id="circle-two"></div>
-                            <div class="circle" id="circle-three"></div>
-                            <div class="circle" id="circle-four"></div>
-                            <div class="circle white" id="circle-five"></div>
+                            <div class="circle animated zoomIn animate-1" id="circle-two"></div>
+                            <div class="circle animated zoomIn animate-2" id="circle-three"></div>
+                            <div class="circle animated zoomIn animate-3" id="circle-four"></div>
+                            <div class="circle animated zoomIn animate-4 white" id="circle-five"></div>
                         </div>
                         <div class="row skills-title-info" style="width: 60%; visibility: visible;">
                             <h5>Web design</h5>
                             <div class="circle"></div>
-                            <div class="circle" id="circle-two"></div>
-                            <div class="circle" id="circle-three"></div>
-                            <div class="circle white" id="circle-four"></div>
-                            <div class="circle white" id="circle-five"></div>
+                            <div class="circle animated zoomIn animate-1" id="circle-two"></div>
+                            <div class="circle animated zoomIn animate-2" id="circle-three"></div>
+                            <div class="circle animated zoomIn animate-3 white" id="circle-four"></div>
+                            <div class="circle animated zoomIn animate-4 white" id="circle-five"></div>
                         </div>
                         <div class="row skills-title-info" style="width: 60%; visibility: visible;">
                             <h5>Responsive design</h5>
                             <div class="circle"></div>
-                            <div class="circle" id="circle-two"></div>
-                            <div class="circle" id="circle-three"></div>
-                            <div class="circle" id="circle-four"></div>
-                            <div class="circle white" id="circle-five"></div>
+                            <div class="circle animated zoomIn animate-1" id="circle-two"></div>
+                            <div class="circle animated zoomIn animate-2" id="circle-three"></div>
+                            <div class="circle animated zoomIn animate-3" id="circle-four"></div>
+                            <div class="circle animated zoomIn animate-4 white" id="circle-five"></div>
                         </div>
                         <div class="row skills-title-info" style="width: 100%; visibility: visible;">
                             <h5>Design layout</h5>
                             <div class="circle"></div>
-                            <div class="circle" id="circle-two"></div>
-                            <div class="circle" id="circle-three"></div>
-                            <div class="circle" id="circle-four"></div>
-                            <div class="circle" id="circle-five"></div>
+                            <div class="circle animated zoomIn animate-1" id="circle-two"></div>
+                            <div class="circle animated zoomIn animate-2" id="circle-three"></div>
+                            <div class="circle animated zoomIn animate-3" id="circle-four"></div>
+                            <div class="circle animated zoomIn animate-4" id="circle-five"></div>
                         </div>
                         <div class="row skills-title-info" style="width: 80%; visibility: visible;">
-                            <h5>Project management</h5>
+                            <h5>Graphic Design</h5>
                             <div class="circle"></div>
-                            <div class="circle" id="circle-two"></div>
-                            <div class="circle" id="circle-three"></div>
-                            <div class="circle" id="circle-four"></div>
-                            <div class="circle white" id="circle-five"></div>
+                            <div class="circle animated zoomIn animate-1" id="circle-two"></div>
+                            <div class="circle animated zoomIn animate-2" id="circle-three"></div>
+                            <div class="circle animated zoomIn animate-3" id="circle-four"></div>
+                            <div class="circle animated zoomIn animate-4 white" id="circle-five"></div>
                         </div>
                     </div>
                 <div class="col-sm-6 col-md-6">
@@ -213,19 +218,53 @@
     </section> 
     <section id="project">
         <header id="header-project">
-        <h1 id="title-project">My Projects</h1>
-      </header>
-      <div id="container-project">
+          <h1 id="title-project">My Projects</h1>
+        </header>
+        <div class="container container-project">
+          <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="thumbnail animated zoomIn animate-1">
+                    <img alt="..." src="img/project/logo_SwissMadeSecurity.png">
+                  </div>
+                  <div class="thumbnail animated zoomIn animate-2">
+                    <img alt="..." src="img/project/Volantino_Lamone.png">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="thumbnail animated zoomIn animate-3">
+                    <img alt="..." src="img/project/Affiche_Comem.png">
+                  </div>
+                  <div class="thumbnail animated zoomIn animate-2">
+                    <img alt="..." src="img/project/Brochure_Queen.png">
+                  </div>
+                  <div class="thumbnail animated zoomIn animate-1">
+                    <img alt="..." src="img/project/Volantino_Clivio.png">
+                  </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="thumbnail animated zoomIn animate-3">
+                    <img alt="..." src="img/project/depliant_transmedia_Pagina_1.png">
+                  </div>
+                  <div class="thumbnail animated zoomIn animate-2">
+                    <img alt="..." src="img/project/Brochure_Queen.png">
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </div>
+      <!--<div id="container-project">
         <div class="row prj">
           <div class="col-sm-4 col-md-4 center">
-            <div class="row prj-img">
-              <img src="img/project/logo_SwissMadeSecurity.png" class="img-prj">
+            <div class="row thumbnail">
+              <img src="img/project/logo_SwissMadeSecurity.png">
             </div>
           </div>
           <div class="col-sm-4 col-md-4 center">
-            <div class="row prj-img">
+            <div class="row thumbnail">
               <img src="img/project/Volantino_Lamone.png" class="img-prj circle-photo-project">
-            </div>
           </div>
           <div class="col-sm-4 col-md-4 center">
             <div class="row prj-img">
@@ -233,7 +272,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div>-->
     </section>
     <section id="languages">
       <header id="header-languages">
