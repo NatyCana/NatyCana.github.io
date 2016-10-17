@@ -1,5 +1,8 @@
+var window_height;
+
 $(document).ready(function() {
     LowScroll();
+    window_height = $(window).height();
 
      /*Education*/
     OverEffectEducationHEIG();
