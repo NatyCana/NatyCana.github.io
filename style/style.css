@@ -135,7 +135,10 @@ animated.animation-delay-1s{
     background-color: #3b3b3b;
    
 }
-
+.navbar-brand {
+    padding-left: 30px;
+    padding-top: 10px;
+}
 /* ======================== HOME ======================== */
 #home {
   background: url('../img/home-background.png') no-repeat center center fixed;
