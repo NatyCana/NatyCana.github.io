@@ -34,7 +34,7 @@ body{
     font-family: 'EurostileLTStd'; 
     font-weight: 300;
     line-height: 1.8em;
-        color: #666;
+    color: #666;
 }
 h1{
     font-family: 'EurostileLTStd';
@@ -181,7 +181,7 @@ animated.animation-delay-1s{
 
 a.scroll-arrow {
     color: #ffffff;
-    font-size: 8px;
+    font-size: 12px;
     padding: 12px 25px;
     border-radius:50em;
     border-top-color: #f25b00;
@@ -471,13 +471,11 @@ a.scroll-arrow:hover{
     width: 100%;
 }
 
-
-
 /* ======================== CONTACT ======================== */
 #contact{
     height: 100%;
     width: 100%;
-    background-color: #f6f6f6;
+    background-color: #ffffff;
     padding-top: 2%;
     padding-bottom: 4%;
 }

@@ -4,7 +4,9 @@ $(document).ready(function() {
     LowScroll();
     window_height = $(window).height();
 
-
+    $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
 });
 
 /*=========== BASIC FUNCTION ===========*/
