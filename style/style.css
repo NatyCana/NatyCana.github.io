@@ -87,7 +87,7 @@ p{
 }
 .row{
     margin: 0;
-    /*border: 2px solid red;*/
+    border: 2px solid red;
 }
 .no-padding{
     padding: 0;
@@ -280,6 +280,9 @@ a.scroll-arrow:hover{
 }
 .icon-set-left{
     margin-left: -45%;
+}
+.icon-set-right{
+    margin-right: -45%;
 }
 .padding-row{
     padding-bottom: 5%;
@@ -620,13 +623,13 @@ Footer{
         padding-right: 5%;
         padding-left: 5%;
     }
-
-    /*===== SKILLS =====*/
-    #container-skills{
-        padding-left: 15px;
-        padding-right: 15px;
+    /*===== Profile =====*/
+    .padding-left-set{
+        padding-left: 2%;
     }
-
+    .padding-right-set{
+        padding-right: 2%;
+    }
 
     /*===== CONTACT =====*/
     #container-contact {

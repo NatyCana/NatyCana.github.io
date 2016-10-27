@@ -9,11 +9,8 @@ $(document).ready(function() {
     });
 
     EffectsProfileSection();
-    /*=========== Section hover ===========*/
-    $("#skills").hover(function(){
-        /**/
-        console.log("skills");
-    })
+
+
 });
 
 /*=========== BASIC FUNCTION ===========*/
@@ -57,6 +54,9 @@ function LowScroll(){
     });
 
 }
+
+
+
 function EffectsProfileSection(){
     $("#profile").hover(function(){
         console.log("profile");
