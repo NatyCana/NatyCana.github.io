@@ -87,7 +87,7 @@ p{
 }
 .row{
     margin: 0;
-    /*border: 2px solid red;*/
+    border: 2px solid red;
 }
 .no-padding{
     padding: 0;
@@ -632,6 +632,9 @@ Footer{
     #container-contact {
         margin-top: 300px;
     
+    }
+    #text-email{
+        padding-top: 3px;
     }
 }
 /* ====================================================== */
