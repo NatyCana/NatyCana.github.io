@@ -98,15 +98,15 @@ p{
 animated.animation-delay-1s{
     animation-delay: 1s;
 }
-/*.animated.animate-1{
+.animated.animate-1{
     animation-delay: 0s;
     animation-duration: 0.5s;
 }
 .animated.animate-2{
-    animation-delay: 0.4s;
+    animation-delay: 1s;
     animation-duration: 0.5s;
 }
-.animated.animate-3{
+/*.animated.animate-3{
     animation-delay: 0.8s;
     animation-duration: 0.5s;
 }
@@ -447,25 +447,17 @@ a.scroll-arrow:hover{
     width: 100%;
     padding-top: 2%;
     padding-bottom: 4%;
+
 }
-/*#bg-project{
-    position: absolute;
-    left: 0px;
-    margin-top: -15px;
-    z-index: -1;
-}*/
+
 #header-project{
     text-align: center;
     padding-top: 50px;
 }
 
 .container-project{
-    padding-top: 80px;
+    padding-top: 2%;
 }
-.prj{
-    padding-top: 20px;
-}
-
 .thumbnail img:hover{
     transform: scale(1.1);
 }
@@ -499,6 +491,10 @@ a.scroll-arrow:hover{
     width: 50px;
     height: auto;
 
+}
+#icon-email{
+    padding-top: 1%;
+    padding-bottom: 3px;
 }
 .text-contact h4{
     padding-top: 5%;
@@ -551,7 +547,17 @@ Footer{
         font-size: 24px;
         padding-top: 8%;
     }
-
+    /* ===== About Me =====*/
+    #photo_aboutMe {
+        margin-top: 5%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    #description-aboutMe {
+        padding-top: 8%;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
     
     /* ===== PROFILE =====*/
     .title-profile{
@@ -566,30 +572,13 @@ Footer{
         padding-left: 20px;
         padding-right: 20px;
     }
-    .skills-item{
-        padding-left: 0px;
-        padding-right: 0px;
+    .bottom-media{
+        padding-bottom: 10%;
     }
-    #description-skills{
-        padding-top: 50px;
-        padding-left: 10px;
-        padding-right: 10px;
+    .title-skills-icon {
+        padding-top: 2%;
     }
 
-    /* ===== PROJECT =====*/
-    .img-prj{
-        padding-top: 30px;
-
-    }
-
-    /*===== LANGUAGES =====*/
-    .lang-desc{
-        padding-bottom: 20px;
-    }
-        .img-flag{
-        height: 50%;
-        width: 50%;
-    }
 
     /*===== CONTACT =====*/
     #contact{
@@ -621,19 +610,15 @@ Footer{
         padding-left: 60px;
         padding-right: 60px;
     }
-    #btn-goToSkills {
-        margin-left: 55px;
+    #photo_aboutMe {
+        margin-top: 25%;
+        margin-right: 5%;
+        margin-left: 5%;
     }
-
-    /*===== EDUCATION =====*/
-    #container-education{
-        margin-right: 20px;
-        margin-left: 20px;
-    }
-
-    .education-text {
-        padding-left: 10px;
-        padding-right: 10px;
+    #description-aboutMe {
+        padding-top: 5%;
+        padding-right: 5%;
+        padding-left: 5%;
     }
 
     /*===== SKILLS =====*/
@@ -641,15 +626,7 @@ Footer{
         padding-left: 15px;
         padding-right: 15px;
     }
-    #description-skills{
-        margin-top: 5px;
-    }
 
-    /*===== LANGUAGES =====*/
-    .img-flag{
-        height: 50%;
-        width: 50%;
-    }
 
     /*===== CONTACT =====*/
     #container-contact {

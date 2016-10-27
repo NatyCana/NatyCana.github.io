@@ -8,6 +8,7 @@ $(document).ready(function() {
         $('[data-toggle="tooltip"]').tooltip()
     });
 
+    EffectsProfileSection();
     /*=========== Section hover ===========*/
     $("#skills").hover(function(){
         /**/
@@ -55,5 +56,15 @@ function LowScroll(){
         });
     });
 
+}
+function EffectsProfileSection(){
+    $("#profile").hover(function(){
+        console.log("profile");
+        $( ".animation-profile" ).addClass( "animated pulse" );
+    })
+    $("#profile").mouseleave(function(){
+        console.log("out");
+        $( ".animation-profile" ).removeClass( "animated pulse" );
+    })
 }
  
