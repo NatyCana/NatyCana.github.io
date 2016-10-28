@@ -461,6 +461,9 @@ a.scroll-arrow:hover{
 .container-project{
     padding-top: 2%;
 }
+.thumbnail{
+    padding: 0px;
+}
 .thumbnail img:hover{
     transform: scale(1.1);
 }
