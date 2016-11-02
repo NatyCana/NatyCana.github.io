@@ -87,14 +87,11 @@ p{
 }
 .row{
     margin: 0;
-    /*border: 2px solid red;*/
 }
 .no-padding{
     padding: 0;
 }
-/*.col-md-2,.col-md-4,.col-md-6{
-    border: 2px solid green;
-}*/
+
 animated.animation-delay-1s{
     animation-delay: 1s;
 }
@@ -106,15 +103,6 @@ animated.animation-delay-1s{
     animation-delay: 1s;
     animation-duration: 0.5s;
 }
-/*.animated.animate-3{
-    animation-delay: 0.8s;
-    animation-duration: 0.5s;
-}
-
-.animated.animate-4{
-    animation-delay: 1.2s;
-    animation-duration: 0.5s;
-}*/
 /* ======================== NAVBAR ======================== */
 .navbar-inverse .navbar-nav>li>a{
    font-family: 'NothingYouCouldDo'; 
@@ -458,7 +446,7 @@ a.scroll-arrow:hover{
     padding-top: 50px;
 }
 
-.container-project{
+#container-project{
     padding-top: 2%;
 }
 .thumbnail{
