@@ -10,6 +10,13 @@ $(document).ready(function() {
 
     EffectsProfileSection();
 
+    $(window).scroll(function() {
+        if ($(document).scrollTop() > 50) {
+            $('nav').addClass('colorNavbar');
+        } else {
+            $('nav').removeClass('colorNavbar');
+        }
+    });
 
 });
 
@@ -76,12 +83,10 @@ function LowScroll(){
 
 
 function EffectsProfileSection(){
-    $("#profile").hover(function(){
-        console.log("profile");
+    $("#profile").hover(function(){    
         $( ".animation-profile" ).addClass( "animated pulse" );
     })
     $("#profile").mouseleave(function(){
-        console.log("out");
         $( ".animation-profile" ).removeClass( "animated pulse" );
     })
 }

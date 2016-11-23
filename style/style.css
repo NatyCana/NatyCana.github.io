@@ -41,8 +41,7 @@ h1{
 }
 h2{
     font-family: 'EurostileLTStd-Demi';
-    font-size: 2.9em;
-    letter-spacing: -.035em;
+    font-size: 3.125em;
     margin: 0 0 .7em;
     text-align: center;
 }
@@ -92,18 +91,11 @@ p{
     padding: 0;
 }
 
-animated.animation-delay-1s{
-    animation-delay: 1s;
-}
-.animated.animate-1{
-    animation-delay: 0s;
-    animation-duration: 0.5s;
-}
-.animated.animate-2{
-    animation-delay: 1s;
-    animation-duration: 0.5s;
-}
 /* ======================== NAVBAR ======================== */
+nav{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
 .navbar-inverse .navbar-nav>li>a{
    font-family: 'NothingYouCouldDo'; 
    color: #ffffff;
@@ -112,7 +104,7 @@ animated.animation-delay-1s{
     color:#f25b00;
 }
 .navbar-inverse{
-    background-color: #3b3b3b;
+    background-color: transparent;
     border: none;
 
 }
@@ -120,13 +112,22 @@ animated.animation-delay-1s{
 .navbar-inverse .navbar-nav>.active>a:focus, 
 .navbar-inverse .navbar-nav>.active>a:hover {
     color: #f25b00;
-    background-color: #3b3b3b;
+    background-color: transparent;
    
 }
 .navbar-brand {
-    padding-left: 30px;
-    padding-top: 10px;
+    padding-left: 80%;
+    padding-top: 5px;
 }
+nav.navbar.colorNavbar {
+  background-color: #3b3b3b;
+  -webkit-transition: all 0.4s ease;
+   transition: all 0.4s ease;
+}
+.navbar-right{
+    margin-right: 2%;
+}
+
 /* ======================== HOME ======================== */
 #home {
   background: url('../img/home-background.png') no-repeat center center fixed;
@@ -143,12 +144,11 @@ animated.animation-delay-1s{
 
 .section-header {
   display: table-cell;
-  padding-top: 2%;
+  padding-top: 5%;
   text-align: center;
   vertical-align: middle;
 
 }
-
 
 .section-header h3 {
     font-weight: 100;
@@ -198,8 +198,9 @@ a.scroll-arrow:hover{
 #aboutMe{
     height: auto;
     width: 100%;
-    padding-bottom: 4%;
-    padding-top: 2%;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    
 }
 #header-aboutMe{
     text-align: center;
@@ -228,9 +229,9 @@ a.scroll-arrow:hover{
 }
 /* ======================== PROFILE ======================== */
 #profile{
-    padding-top: 2%;
-    padding-bottom: 4%;
-    background-color: #f6f6f6;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    background-color: #f5f5f4;
     
 }
 #header-profile{
@@ -239,7 +240,7 @@ a.scroll-arrow:hover{
 }
 #container-profile{
     text-align: center;
-    margin-top: 5%;
+    margin-top: 8%;
     
 }
 .title-profile{
@@ -280,7 +281,7 @@ a.scroll-arrow:hover{
     height: auto;
     width: 100%;
     background-color: #292929;
-    padding-top: 2%;
+    padding-top: 6%;
     padding-bottom: 6%;
 
 }
@@ -294,7 +295,7 @@ a.scroll-arrow:hover{
     padding-top: 50px;
 }
 #container-skills{
-    margin-top: 5%;
+    margin-top: 8%;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -436,8 +437,8 @@ a.scroll-arrow:hover{
 #project{   
     height: auto;
     width: 100%;
-    padding-top: 2%;
-    padding-bottom: 4%;
+    padding-top: 6%;
+    padding-bottom: 6%;
     background-color: #f6f6f6;
 
 }
@@ -448,7 +449,7 @@ a.scroll-arrow:hover{
 }
 
 #container-project{
-    padding-top: 2%;
+    padding-top: 5%;
 }
 .thumbnail{
     padding: 0px;
@@ -471,8 +472,8 @@ a.scroll-arrow:hover{
     height: 100%;
     width: 100%;
     background-color: #ffffff;
-    padding-top: 2%;
-    padding-bottom: 4%;
+    padding-top: 6%;
+    padding-bottom: 6%;
 }
 
 #header-contact{
@@ -534,6 +535,11 @@ Footer{
     }
     h4{
         font-size: 16px;
+    }
+    /* ===== NAVBAR =====*/
+    .navbar-brand {
+        padding-left: 5%;
+        padding-top: 10px;
     }
     /* ===== HOME =====*/
     #home{
@@ -600,6 +606,12 @@ Footer{
     /* ===== GENERAL =====*/
     #home{
         background-attachment:scroll;
+    }
+    /* ===== NAVBAR =====*/
+        /* ===== NAVBAR =====*/
+    .navbar-brand {
+        padding-left: 50%;
+        padding-top: 5px;
     }
     /*===== ABOUT ME =====*/
     #title-description h4 {
