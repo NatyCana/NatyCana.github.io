@@ -539,7 +539,7 @@ Footer{
     /* ===== NAVBAR =====*/
     .navbar-brand {
         padding-left: 5%;
-        padding-top: 10px;
+        padding-top: 2px;
     }
     /* ===== HOME =====*/
     #home{
@@ -608,7 +608,6 @@ Footer{
         background-attachment:scroll;
     }
     /* ===== NAVBAR =====*/
-        /* ===== NAVBAR =====*/
     .navbar-brand {
         padding-left: 50%;
         padding-top: 5px;
