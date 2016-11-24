@@ -69,6 +69,7 @@ p{
    font-weight: 300;
    text-align: justify;
    line-height: 1.8em;
+
 }
 
 .center{
@@ -99,6 +100,7 @@ nav{
 .navbar-inverse .navbar-nav>li>a{
    font-family: 'NothingYouCouldDo'; 
    color: #ffffff;
+   font-size: 13px;
 }
 .navbar-inverse .navbar-nav>li>a:hover{
     color:#f25b00;
@@ -116,8 +118,8 @@ nav{
    
 }
 .navbar-brand {
-    padding-left: 80%;
     padding-top: 5px;
+    padding-left: 50%;
 }
 nav.navbar.colorNavbar {
   background-color: #3b3b3b;
@@ -169,31 +171,6 @@ nav.navbar.colorNavbar {
     margin-bottom: 6%;
 
 }
-
-a.scroll-arrow {
-    color: #ffffff;
-    font-size: 12px;
-    padding: 12px 25px;
-    border-radius:50em;
-    border-top-color: #f25b00;
-    border-top-width: 3px;
-    border-top-style: double;
-    border-right-color: #f25b00;
-    border-right-width: 3px;
-    border-right-style: double;
-    border-bottom-color: #f25b00;
-    border-bottom-width: 3px;
-    border-bottom-style: double;
-    border-left-color: #f25b00;
-    border-left-width: 3px;
-    border-left-style: double;
-}
-a.scroll-arrow:hover{
-    background-color: #f25b00;
-    text-decoration: none;
-}
-
-
 /* ======================== ABOUT ME ======================== */
 #aboutMe{
     height: auto;
@@ -208,10 +185,10 @@ a.scroll-arrow:hover{
 }
 #container-aboutMe{
     padding-top: 5%;
+    padding-bottom: 5%;
 }
 #photo_aboutMe{
     width: 300px;
-    margin-right: 15%;
 }
 .photo-circle{
     border-radius: 50em;
@@ -240,7 +217,8 @@ a.scroll-arrow:hover{
 }
 #container-profile{
     text-align: center;
-    margin-top: 8%;
+    padding-top: 8%;
+    padding-bottom: 5%;
     
 }
 .title-profile{
@@ -295,9 +273,10 @@ a.scroll-arrow:hover{
     padding-top: 50px;
 }
 #container-skills{
-    margin-top: 8%;
-    margin-left: 5%;
-    margin-right: 5%;
+    padding-top: 8%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
 }
 #title-skills{
     color: white;
@@ -305,7 +284,6 @@ a.scroll-arrow:hover{
 .title-skills-icon{
     color: white;
     text-align: center;
-    padding-top: 5%;
 }
 
 .circle.p60 .slice, 
@@ -378,13 +356,17 @@ a.scroll-arrow:hover{
     position: absolute;
     width: 100%;
     z-index: 1;
-    left: 25%;
-    top: 25%;
+    left: 23%;
+    top: 26%;
     width: 50px;
     line-height: 5em;
     font-size: 0.2em;
     display: block;
     text-align: center;
+}
+.circle2 > img{
+    top: 23%;
+    left: 24%;
 }
 .circle:after {
     position: absolute;
@@ -439,8 +421,7 @@ a.scroll-arrow:hover{
     width: 100%;
     padding-top: 6%;
     padding-bottom: 6%;
-    background-color: #f6f6f6;
-
+    background-color: #f5f5f4;
 }
 
 #header-project{
@@ -450,6 +431,7 @@ a.scroll-arrow:hover{
 
 #container-project{
     padding-top: 5%;
+    padding-bottom: 5%;
 }
 .thumbnail{
     padding: 0px;
@@ -469,9 +451,8 @@ a.scroll-arrow:hover{
 
 /* ======================== CONTACT ======================== */
 #contact{
-    height: 100%;
+    height: auto;
     width: 100%;
-    background-color: #ffffff;
     padding-top: 6%;
     padding-bottom: 6%;
 }
@@ -483,9 +464,10 @@ a.scroll-arrow:hover{
 
 #container-contact{
     text-align: center;
-    margin-top: 150px;
-    margin-right: 80px;
-    margin-left: 80px;
+    padding-top: 8%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 6%;
 
 }
 .icon-set-contact{
@@ -556,8 +538,10 @@ Footer{
     /* ===== About Me =====*/
     #photo_aboutMe {
         margin-top: 5%;
-        margin-right: 5%;
-        margin-left: 5%;
+        margin-right: 2%;
+    }
+    #description-aboutMe h4{
+        letter-spacing: 0;
     }
     #description-aboutMe {
         padding-top: 8%;
@@ -569,33 +553,27 @@ Footer{
     .title-profile{
         font-size: 18px;
     }
-    .date{
-        font-size: 16px;
-
-    }
     /* ===== SKILLS =====*/
     #container-skills {
         padding-left: 20px;
         padding-right: 20px;
     }
-    .bottom-media{
-        padding-bottom: 10%;
+    .marginBottom-skills{
+        padding-bottom: 15%;
     }
-    .title-skills-icon {
-        padding-top: 2%;
+    .circle {
+        font-size: 90px;
     }
-
+    .circle > img {
+        width: 40px;
+        left: 24%;
+    }
 
     /*===== CONTACT =====*/
     #contact{
         height: auto;
     }
-    #container-contact{
-        margin-top: 100px;
-        margin-left: 20px;
-        margin-right: 20px;
 
-    }
     #row-two{
         padding-top: 50px;
     }
@@ -632,6 +610,7 @@ Footer{
         padding-left: 5%;
     }
     /*===== Profile =====*/
+
     .padding-left-set{
         padding-left: 2%;
     }
@@ -640,10 +619,7 @@ Footer{
     }
 
     /*===== CONTACT =====*/
-    #container-contact {
-        margin-top: 300px;
-    
-    }
+
     #text-email{
         padding-top: 3px;
     }
