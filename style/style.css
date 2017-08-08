@@ -132,7 +132,7 @@ nav.navbar.colorNavbar {
 
 /* ======================== HOME ======================== */
 #home {
-  background: url('../img/home-background.png') no-repeat center center fixed;
+  background: url('../img/home-background.jpg') no-repeat center center fixed;
   display: table;
   height: 100%;
   position: relative;
