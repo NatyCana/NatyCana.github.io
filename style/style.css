@@ -594,7 +594,7 @@ Footer{
 /* ======================== Parallaxa ======================== */
 .parallax {
     /* The image used */
-    background-image: url('../img/education-background.jpg');
+    background-image: url('../img/parallax.jpg');
 
     /* Full height */
     height: 100%; 
@@ -608,7 +608,7 @@ Footer{
 
 .parallax2 {
     /* The image used */
-    background-image: url('../img/img2.jpg');
+    background-image: url('../img/parallax2.jpg');
 
     /* Full height */
     height: 100%; 
