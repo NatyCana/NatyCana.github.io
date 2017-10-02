@@ -741,35 +741,65 @@ Footer{
 /* ====================================================== */
 /* iPad in portrait & landscape*/
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
-        #home{
+    #home{
+        background-attachment:scroll;
+    }
+    .parallax {
+        background-attachment:scroll;
+    }
+    .parallax2 {
         background-attachment:scroll;
     }
 }
 
 /*iPhone 6 in portrait & landscape*/
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
-        #home{
+    #home{
+        background-attachment:scroll;
+    }
+    .parallax {
+        background-attachment:scroll;
+    }
+    .parallax2 {
         background-attachment:scroll;
     }
 }
 
 /*iPhone 6 Plus in portrait & landscape*/
 @media only screen and (min-device-width : 414px) and (max-device-width : 736px) {
-        #home{
+    #home{
+        background-attachment:scroll;
+    }
+    .parallax {
+        background-attachment:scroll;
+    }
+    .parallax2 {
         background-attachment:scroll;
     }
 }
 
 /*iPhone 5 & 5S in portrait & landscape*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
-        #home{
+    #home{
+        background-attachment:scroll;
+    }
+    .parallax {
+        background-attachment:scroll;
+    }
+    .parallax2 {
         background-attachment:scroll;
     }
 }
 
 /*Phone 2G-4S in portrait & landscape*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-        #home{
+    #home{
+        background-attachment:scroll;
+    }
+    .parallax {
+        background-attachment:scroll;
+    }
+    .parallax2 {
         background-attachment:scroll;
     }
 }
