@@ -77,6 +77,79 @@
 	position:unset !important;
 }
 
-@media(min-width:768px) {
-  
+/* ====================================================== */
+/* ======================== MEDIA IPAD AND IPHONE ======================= */
+/* ====================================================== */
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+      .parallax2 {
+        background-attachment:scroll;
+    }
+    .parallax3 {
+        background-attachment:scroll;
+    }
+}
+
+/* iPhone X in portrait & landscape*/
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 812px)
+and (-webkit-device-pixel-ratio : 3) {
+      .parallax2 {
+        background-attachment:scroll;
+    }
+    .parallax3 {
+        background-attachment:scroll;
+    }
+}
+
+/* iPad in portrait & landscape*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+    .parallax2 {
+        background-attachment:scroll;
+    }
+    .parallax3 {
+        background-attachment:scroll;
+    }
+}
+
+/*iPhone 6 in portrait & landscape*/
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+    .parallax2 {
+        background-attachment:scroll;
+    }
+    .parallax3 {
+        background-attachment:scroll;
+    }
+}
+
+/*iPhone 6 Plus in portrait & landscape*/
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) {
+    .parallax2 {
+        background-attachment:scroll;
+    }
+    .parallax3 {
+        background-attachment:scroll;
+    }
+}
+
+/*iPhone 5 & 5S in portrait & landscape*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+    .parallax2 {
+        background-attachment:scroll;
+    }
+    .parallax3 {
+        background-attachment:scroll;
+    }
+}
+
+/*Phone 2G-4S in portrait & landscape*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .parallax2 {
+        background-attachment:scroll;
+    }
+    .parallax3 {
+        background-attachment:scroll;
+    }
 }
