@@ -170,10 +170,6 @@ header.masthead {
   header.masthead .intro-text {
     padding-top: 50px;
     padding-bottom: 200px; }
-    header.masthead .intro-text .intro-lead-in {
-      font-size: 65px;
-      line-height: 40px;
-      margin-bottom: 25px; }
     header.masthead .intro-text .intro-heading {
       font-size: 65px;
       font-weight: 400;
@@ -197,10 +193,6 @@ header.masthead {
     header.masthead .intro-text {
       padding-top: 50px;
       padding-bottom: 200px; }
-      header.masthead .intro-text .intro-lead-in {
-        font-size: 65px;
-        line-height: 40px;
-        margin-bottom: 25px; }
       header.masthead .intro-text .intro-heading {
         font-size: 30px;
         font-weight: 400;
@@ -216,7 +208,11 @@ header.masthead {
         font-family: 'EurostileLTStd'; } }
 @media (max-width: 991px) and (min-width: 768px) {
   header.masthead {
-    background-attachment: scroll; } }
+    background-attachment: scroll; }
+    header.masthead .intro-text .intro-heading {
+      font-size: 65px; }
+    header.masthead .intro-text .intro-heading-worktitle {
+      font-size: 40px; } }
 /* ====================================================== */
 /* ======================== MEDIA IPAD AND IPHONE ======================= */
 /* ====================================================== */
