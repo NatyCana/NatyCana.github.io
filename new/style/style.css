@@ -215,10 +215,8 @@ header.masthead {
         margin-bottom: 25px;
         font-family: 'EurostileLTStd'; } }
 @media (max-width: 991px) and (min-width: 768px) {
-  .aboutme img {
-    width: 250px;
-    height: 250px;
-    transform: translateY(50%); } }
+  header.masthead {
+    background-attachment: scroll; } }
 /* ====================================================== */
 /* ======================== MEDIA IPAD AND IPHONE ======================= */
 /* ====================================================== */
