@@ -210,7 +210,8 @@ header.masthead {
   header.masthead {
     background-attachment: scroll; }
     header.masthead .intro-text .intro-heading {
-      font-size: 65px; }
+      font-size: 65px;
+      margin-bottom: 50px; }
     header.masthead .intro-text .intro-heading-worktitle {
       font-size: 40px; } }
 /* ====================================================== */
