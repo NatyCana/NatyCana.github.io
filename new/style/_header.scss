@@ -6,6 +6,8 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   @include background-cover;
+  height: 100%;
+  width:100%;
   .butterfly{
   padding-top: 200px;
   }
@@ -69,3 +71,40 @@ header.masthead {
   }
 }
 
+/* ====================================================== */
+/* ======================== MEDIA IPAD AND IPHONE ======================= */
+/* ====================================================== */
+/* iPad in portrait & landscape*/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
+    header.masthead {
+        background-attachment:scroll;
+    }
+}
+
+/*iPhone 6 in portrait & landscape*/
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
+    header.masthead {
+        background-attachment:scroll;
+    }
+}
+
+/*iPhone 6 Plus in portrait & landscape*/
+@media only screen and (min-device-width : 414px) and (max-device-width : 736px) {
+    header.masthead {
+        background-attachment:scroll;
+    }
+}
+
+/*iPhone 5 & 5S in portrait & landscape*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
+    header.masthead {
+        background-attachment:scroll;
+    }
+}
+
+/*Phone 2G-4S in portrait & landscape*/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    header.masthead {
+        background-attachment:scroll;
+    }
+}

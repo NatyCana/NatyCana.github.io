@@ -163,7 +163,9 @@ header.masthead {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+  height: 100%;
+  width: 100%; }
   header.masthead .butterfly {
     padding-top: 200px; }
   header.masthead .intro-text {
@@ -210,6 +212,29 @@ header.masthead {
       line-height: 50px;
       margin-bottom: 25px;
       font-family: 'EurostileLTStd'; } }
+/* ====================================================== */
+/* ======================== MEDIA IPAD AND IPHONE ======================= */
+/* ====================================================== */
+/* iPad in portrait & landscape*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  header.masthead {
+    background-attachment: scroll; } }
+/*iPhone 6 in portrait & landscape*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  header.masthead {
+    background-attachment: scroll; } }
+/*iPhone 6 Plus in portrait & landscape*/
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
+  header.masthead {
+    background-attachment: scroll; } }
+/*iPhone 5 & 5S in portrait & landscape*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  header.masthead {
+    background-attachment: scroll; } }
+/*Phone 2G-4S in portrait & landscape*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  header.masthead {
+    background-attachment: scroll; } }
 .aboutme {
   margin-bottom: 50px;
   padding-top: 8%;
