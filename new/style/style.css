@@ -385,6 +385,59 @@ header.masthead {
         margin-top: 40px; }
     .timeline > li.timeline-inverted > .timeline-panel {
       padding: 0 100px 20px 20px; } }
+/* ====================================================== */
+/* ======================== MEDIA IPAD AND IPHONE ======================= */
+/* ====================================================== */
+/* iPad in portrait & landscape*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #home {
+    background-attachment: scroll; }
+
+  .parallax {
+    background-attachment: scroll; }
+
+  .parallax2 {
+    background-attachment: scroll; } }
+/*iPhone 6 in portrait & landscape*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  #home {
+    background-attachment: scroll; }
+
+  .parallax {
+    background-attachment: scroll; }
+
+  .parallax2 {
+    background-attachment: scroll; } }
+/*iPhone 6 Plus in portrait & landscape*/
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
+  #home {
+    background-attachment: scroll; }
+
+  .parallax {
+    background-attachment: scroll; }
+
+  .parallax2 {
+    background-attachment: scroll; } }
+/*iPhone 5 & 5S in portrait & landscape*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  #home {
+    background-attachment: scroll; }
+
+  .parallax {
+    background-attachment: scroll; }
+
+  .parallax2 {
+    background-attachment: scroll; } }
+/*Phone 2G-4S in portrait & landscape*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #home {
+    background-attachment: scroll; }
+
+  .parallax {
+    background-attachment: scroll; }
+
+  .parallax2 {
+    background-attachment: scroll; } }
 .education {
   position: relative;
   padding: 0;
@@ -569,6 +622,59 @@ header.masthead {
 .fa-stack {
   position: unset !important; }
 
+/* ====================================================== */
+/* ======================== MEDIA IPAD AND IPHONE ======================= */
+/* ====================================================== */
+/* iPad in portrait & landscape*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  #home {
+    background-attachment: scroll; }
+
+  .parallax {
+    background-attachment: scroll; }
+
+  .parallax2 {
+    background-attachment: scroll; } }
+/*iPhone 6 in portrait & landscape*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  #home {
+    background-attachment: scroll; }
+
+  .parallax {
+    background-attachment: scroll; }
+
+  .parallax2 {
+    background-attachment: scroll; } }
+/*iPhone 6 Plus in portrait & landscape*/
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
+  #home {
+    background-attachment: scroll; }
+
+  .parallax {
+    background-attachment: scroll; }
+
+  .parallax2 {
+    background-attachment: scroll; } }
+/*iPhone 5 & 5S in portrait & landscape*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  #home {
+    background-attachment: scroll; }
+
+  .parallax {
+    background-attachment: scroll; }
+
+  .parallax2 {
+    background-attachment: scroll; } }
+/*Phone 2G-4S in portrait & landscape*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  #home {
+    background-attachment: scroll; }
+
+  .parallax {
+    background-attachment: scroll; }
+
+  .parallax2 {
+    background-attachment: scroll; } }
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px; }
