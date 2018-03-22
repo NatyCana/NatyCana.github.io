@@ -5,10 +5,37 @@
   img {
     width: 300px;
     height: 300px;
-    border: 7px solid $white;
   }
-  h3{
-  	font-family: 'NothingYouCouldDo';
-  	color: $primary;
+  #resume{
+    margin-top:25px;
+    h3{
+      font-family: 'NothingYouCouldDo';
+      color: $primary;
+    }
+  }
+  
+}
+
+@media(max-width:768px) {
+  .aboutme {
+  img {
+    width: 250px;
+    height: 250px;
+  }
+  #resume{
+    margin-top:25px;
+  }
+  
   }
 }
+
+@media(max-width: 991px) and (min-width: 768px) {
+  .aboutme {
+    img {
+      width: 250px;
+      height: 250px;
+      transform: translateY(50%);
+    }
+  }
+}
+

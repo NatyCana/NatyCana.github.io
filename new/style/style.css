@@ -241,12 +241,24 @@ header.masthead {
   text-align: left; }
   .aboutme img {
     width: 300px;
-    height: 300px;
-    border: 7px solid #fff; }
-  .aboutme h3 {
-    font-family: 'NothingYouCouldDo';
-    color: #f25b00; }
+    height: 300px; }
+  .aboutme #resume {
+    margin-top: 25px; }
+    .aboutme #resume h3 {
+      font-family: 'NothingYouCouldDo';
+      color: #f25b00; }
 
+@media (max-width: 768px) {
+  .aboutme img {
+    width: 250px;
+    height: 250px; }
+  .aboutme #resume {
+    margin-top: 25px; } }
+@media (max-width: 991px) and (min-width: 768px) {
+  .aboutme img {
+    width: 250px;
+    height: 250px;
+    transform: translateY(50%); } }
 .parallax {
   /* The image used */
   background-image: url("../img/parallax1.jpg");
