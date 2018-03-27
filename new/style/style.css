@@ -600,7 +600,8 @@ header.masthead {
   background-size: cover; }
   #parallax3 h2 {
     font-family: 'NothingYouCouldDo';
-    color: #212529; }
+    /*color: $gray900;*/
+    color: white; }
 
 #skills {
   background: #292929; }
@@ -712,7 +713,8 @@ header.masthead {
     #portfolio .portfolio-item .portfolio-caption p {
       font-size: 16px;
       font-style: italic;
-      margin: 0; }
+      margin: 0;
+      text-align: center; }
 #portfolio * {
   z-index: 2; }
 
@@ -741,8 +743,9 @@ header.masthead {
       margin-bottom: 30px; }
     .portfolio-modal .modal-content img {
       margin-bottom: 30px; }
-    .portfolio-modal .modal-content button {
-      cursor: pointer; }
+    .portfolio-modal .modal-content .btn-orange {
+      background: rgba(241, 91, 0, 0.7);
+      color: white; }
   .portfolio-modal .close-modal {
     position: absolute;
     top: 25px;
