@@ -12,6 +12,7 @@ header.masthead {
   background-size: cover;
   .butterfly{
       padding-top: 200px;
+      animation-delay:1s;
     }
     .intro-text {
       padding-top: 50px;
@@ -23,6 +24,7 @@ header.masthead {
           margin-bottom: 50px;
           font-family: 'NothingYouCouldDo';
           color: white;
+          animation-delay:1s;
       }
       .intro-heading-worktitle {
         font-size: 40px;
@@ -30,6 +32,7 @@ header.masthead {
         line-height: 50px;
         margin-bottom: 25px;
         font-family: 'EurostileLTStd';
+        animation-delay:1s;
       }
     }
   }
