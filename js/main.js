@@ -1,93 +1,50 @@
-var window_height;
+(function($) {
+  "use strict"; // Start of use strict
 
-$(document).ready(function() {
-    LowScroll();
-    window_height = $(window).height();
-
-    $(function () {
-        $('[data-toggle="tooltip"]').tooltip()
-    });
-
-    EffectsProfileSection();
-
-    $(window).scroll(function() {
-        if ($(document).scrollTop() > 50) {
-            $('nav').addClass('colorNavbar');
-        } else {
-            $('nav').removeClass('colorNavbar');
-        }
-    });
-
-});
-
-/*=========== BASIC FUNCTION ===========*/
-function LowScroll(){
-    
-    $("#home a").on('click', function(event) {
-
-        // Prevent default anchor click behavior
-        event.preventDefault();
-
-        // Store hash
-        var hash = this.hash;
-
-        // Using jQuery's animate() method to add smooth page scroll
-        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+  // Smooth scrolling using jQuery easing
+  $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      if (target.length) {
         $('html, body').animate({
-            scrollTop: $(hash).offset().top
-        }, 1000, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-        });
-    });
-    $("nav a").on('click', function(event) {
+          scrollTop: (target.offset().top - 54)
+        }, 1200, "easeInOutExpo");
+        return false;
+      }
+    }
+  });
 
-        // Prevent default anchor click behavior
-        event.preventDefault();
+  // Closes responsive menu when a scroll trigger link is clicked
+  $('.js-scroll-trigger').click(function() {
+    $('.navbar-collapse').collapse('hide');
+  });
 
-        // Store hash
-        var hash = this.hash;
+  // Activate scrollspy to add active class to navbar items on scroll
+  $('body').scrollspy({
+    target: '#mainNav',
+    offset: 56
+  });
 
-        // Using jQuery's animate() method to add smooth page scroll
-        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-        $('html, body').animate({
-            scrollTop: $(hash).offset().top
-        }, 1200, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-        });
-    });
-    $("footer a").on('click', function(event) {
+  // Collapse Navbar
+  var navbarCollapse = function() {
+    if ($("#mainNav").offset().top > 100) {
+      $("#mainNav").addClass("navbar-shrink");
+    } else {
+      $("#mainNav").removeClass("navbar-shrink");
+    }
+  };
+  // Collapse now if page is not at top
+  navbarCollapse();
+  // Collapse the navbar when page is scrolled
+  $(window).scroll(navbarCollapse);
 
-        // Prevent default anchor click behavior
-        event.preventDefault();
+  // Hide navbar when modals trigger
+  $('.portfolio-modal').on('show.bs.modal', function(e) {
+    $(".navbar").addClass("d-none");
+  })
+  $('.portfolio-modal').on('hidden.bs.modal', function(e) {
+    $(".navbar").removeClass("d-none");
+  })
 
-        // Store hash
-        var hash = this.hash;
-
-        // Using jQuery's animate() method to add smooth page scroll
-        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-        $('html, body').animate({
-            scrollTop: $(hash).offset().top
-        }, 500, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
-        });
-    });
-
-}
-
-
-
-function EffectsProfileSection(){
-    $("#profile").hover(function(){    
-        $( ".animation-profile" ).addClass( "animated pulse" );
-    })
-    $("#profile").mouseleave(function(){
-        $( ".animation-profile" ).removeClass( "animated pulse" );
-    })
-}
- 
+})(jQuery); // End of use strict

@@ -1,542 +1,406 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>Natalie Canonica - Media engineer</title>
+    <title>Natalie Canonica - Cheffe de projet - Ingénieure des médias</title>
 
-  <!-- Bootstrap -->
-  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="style/normalize.css">
-  <link rel="stylesheet" type="text/css" href="style/style.css">
-  <link rel="stylesheet" href="style/animate.css">
-  <link rel="stylesheet" type="text/css" href="style/default.css" />
-  <link rel="stylesheet" type="text/css" href="style/component.css" />
+    <!-- Bootstrap CSS -->
+    <link href="bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="style/animate.css">
 
-  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/flavicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="img/flavicon/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="img/flavicon/favicon-16x16.png">
-  <link rel="manifest" href="/manifest.json">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/flavicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/flavicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/flavicon/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
 
-  <script src="js/modernizr.custom.js"></script>
-</head>
-<body data-spy="scroll" data-target="#navbar-index">
-  <nav class="navbar navbar-inverse navbar-fixed-top " id="navbar-index">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed"  data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
+  </head>
+  <body id="page-top">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="img/logo_nc.png" width="45"></a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa fa-bars"></i>
         </button>
-        <a class="navbar-brand" href="#home"><img src="img/logo_nc.png" width="45"></a>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#quiJeSuis">Qui je suis</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#experiences">Expériences</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#education">Formation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#skills">Compétences</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
-
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav navbar-right">
-          <li>
-            <a href="#aboutMe">About me</a>
-          </li>
-          <li>
-            <a href="#profile">Work History</a>
-          </li>
-          <li>
-            <a href="#education">Education</a>
-          </li>
-
-          <li>
-            <a href="#skills">Skills</a>
-          </li>
-          <li>
-            <a href="#portfolio">Porfolio</a>
-          </li>
-          <li>
-            <a href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
-  </nav>
-  <section id="home" class="home">
-    <div class="section-header">
-      <img class="animated fadeInDown" style="animation-delay:1.5s" src="img/icons/butterfly.png" width="55px">
-      <h3 class="animated zoomIn" style="animation-delay:1s" id="myName">Natalie Canonica</h3>
-      <div class="separator-container">
-        <div class="separator line-separator"></div>
-      </div>
-      <h1 class="animated zoomIn" style="animation-delay:1s">Media engineer</h1>
-      <a href="#aboutMe" data-scroll="true" class="scroll-arrow">
-        <span class="glyphicon glyphicon glyphicon-menu-down" aria-hidden="true"></span>
-      </a>
-    </div>
-  </section>
-  <section id="aboutMe">
-    <header id="header-aboutMe">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-4 col-md-4 col-lg-4"></div>
-          <div class="col-sm-4 col-md-4 col-lg-4">
-            <img src="img/logo_en_web.png" width="200px" class="center-block" alt="Responsive image">
-          </div>
-          <div class="col-sm-4 col-md-4 col-lg-4"></div>
+    </nav>
+    <!-- Header -->
+    <header class="masthead">
+      <div class="container">
+        <img class="animated fadeInDown butterfly" src="img/butterfly.png">
+        <div class="intro-text">
+          <div class="intro-heading animated zoomIn">Natalie Canonica</div>
+          <div class="intro-heading-worktitle text-uppercase animated zoomIn">Ingénieure des médias</div>
+          <a href="#quiJeSuis" data-scroll="true" class="fa-stack fa-4x">
+            <span class="fas fa-angle-down fa-stack-3x" aria-hidden="true"></span>
+          </a>
         </div>
       </div>
     </header>
-    <div class="container-fluid" id="container-aboutMe">
-      <div class="row">
-        <div class="col-sm-6 col-md-6 col-lg-6 center">
-          <img src="img/img_aboutMe.jpg" class="photo-circle" id="photo_aboutMe">
-        </div>
-        
-        <div class="col-sm-6 col-md-6 col-lg-6" id="description-aboutMe">
-          <p>Hi! My name is Natalie Canonica. Welcome to my personal page that I have designed and created to show my skills!</p>
-
-          <h4>A Little Bit About Me…</h4>
-
-          <p>I am passionate by project management, web development, UX / UI design, web design and design layout. At the moment I am project leader development by Gasser Media. I manage several projects using agile methodology. At the same time, I take care of insert the content images and texts into the websites developed by us.</p>
-          <p>I have a Bachelor of Science HES-SO in Media Engineering with a specialization in print and interactive media management.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="profile">
-    <div class="parallax">
-      <header id="header-profile">
-        <h2 id="title-profile">Work history</h2>
-      </header>
-      <div class="container-fluid" id="container-profile">
-        <div class="row padding-row">
-         <div class="col-sm-6 col-md-6 col-lg-6 padding-left-set">
-          <div class="row animation-profile">
-            <div class="col-xs-8 col-sm-8 col-md-10 col-lg-10">
-              <h5 class="date text-alig-right">April 2017 - today</h5>
-              <h4 class="title-profile text-alig-right">Project Leader Development</h4>
-              <p class="text-profile text-alig-right">Gasser Media SA, Le Locle, Suisse</p>
-            </div>
-            <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
-              <img src="img/icons/project_manage_icon.png" class="icon-set icon-set-right">
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-6 col-lg-6">
-        </div>
-      </div>
-      <div class="row padding-row">
-        <div class="col-sm-6 col-md-6 col-lg-6">
-        </div>
-        <div class="col-sm-6 col-md-6 col-lg-6 padding-right-set">
-          <div class="row animation-profile">
-            <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
-              <img src="img/icons/project_manage_icon.png" class="icon-set icon-set-left">
-            </div>
-            <div class="col-xs-8 col-sm-8 col-md-10 col-lg-10">
-              <h5 class="date text-alig-left">December 2016 - April 2017</h5>
-              <h4 class="title-profile text-alig-left">Internship as Junior Project Leader Development </h4>
-              <p class="text-profile text-alig-left">Gasser Media SA, Le Locle, Suisse</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="education">
-    <header id="header-education">
-      <h2 id="title-education">Education</h2>
-    </header>
-    <div class="container-fluid" id="container-education">
-      <div class="row padding-row">
-       <div class="col-sm-6 col-md-6 col-lg-6 padding-left-set">
-        <div class="row animation-profile">
-          <div class="col-xs-8 col-sm-8 col-md-10 col-lg-10">
-            <h5 class="date text-alig-right">2011 - 2015</h5>
-            <h4 class="title-education text-alig-right">Bachelor of Science HES-SO in Media Engineering</h4>
-            <p class="text-education text-alig-right">With a major in print and interactive media management.</p>
-          </div>
-          <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
-            <img src="img/icons/graduation-icon.png" class="icon-set icon-set-right">
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-6 col-lg-6">
-      </div>
-    </div>
-    <div class="row padding-row">
-      <div class="col-sm-6 col-md-6 col-lg-6">
-      </div>
-      <div class="col-sm-6 col-md-6 col-lg-6 padding-right-set">
-        <div class="row animation-education">
-          <div class="col-xs-4 col-sm-4 col-md-2 col-lg-2">
-            <img src="img/icons/book-icon.png" class="icon-set icon-set-left">
-          </div>
-          <div class="col-xs-8 col-sm-8 col-md-10 col-lg-10">
-            <h5 class="date text-alig-left">2007 - 2011</h5>
-            <h4 class="title-education text-alig-left">IT-Technician studies at School of Arts & Trades</h4>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="skills">
-    <div class="parallax2">
-      <header id="header-skills">
-        <h2 id="title-skills">Skills</h2>
-      </header>
-      <div class="container-fluid" id="container-skills">
+    <!-- AboutMe -->
+    <section id="quiJeSuis">
+      <div class="container">
         <div class="row">
-          <div class="col-sm-4 col-md-4 col-lg-4 marginBottom-skills">
-            <div class="row circle p100 center">
-              <img src="img/icons/project_manage.png" class="icon-set-skills">
-              <div class="slice">
-                <div class="bar"></div>
-                <div class="fill"></div>
-              </div>
-            </div>
-            <div class="row">
-              <h3 class="title-skills-icon">Project management</h3>
-              <p class="p-skills">Project management with agile methodology, SCRUM.</p>
-            </div>
-          </div>
-          <div class="col-sm-4 col-md-4 col-lg-4 marginBottom-skills">
-            <div class="row circle circle3 p80 center">
-              <img src="img/icons/users-relation.png" class="icon-set-skills">
-              <div class="slice">
-                <div class="bar"></div>
-                <div class="fill"></div>
-              </div>
-            </div>
-            <div class="row">
-              <h3 class="title-skills-icon">Client</h3>
-              <p class="p-skills">Communication, support and reference person</p>
-            </div>
-          </div>
-          <div class="col-sm-4 col-md-4 col-lg-4 marginBottom-skills">
-            <div class="row circle p60 center">
-              <img src="img/icons/graphic-design-icon.png" class="icon-set-skills">
-              <div class="slice">
-                <div class="bar"></div>
-                <div class="fill"></div>
-              </div>
-            </div>
-            <div class="row">
-              <h3 class="title-skills-icon">Design</h3>
-              <p class="p-skills">UI / UX design, InDesign, Illustrator, Photoshop, Sketch, Mockups</p>
-            </div>
+          <div class="col-lg-12 text-center">
+            <img src="img/logo_fr_web_new.png" width="250px" alt="Responsive image">
           </div>
         </div>
-        <div class="row row-two">
-          <div class="col-sm-4 col-md-4 col-lg-4 marginBottom-skills">
-            <div class="row circle p100 center">
-              <img src="img/icons/web-developper-icon.png" class="icon-set-skills">
-              <div class="slice">
-                <div class="bar"></div>
-                <div class="fill"></div>
-              </div>
+        <div class="row aboutme">
+          <div class="col-md-6 col-lg-6 text-center">
+            <img src="img/img_aboutMe.jpg" class="rounded-circle">
+          </div>
+          <div class="col-md-6 col-lg-6" id="resume">
+            <p>Salut! Je suis Natalie Canonica une ingénieure des médias axé gestion de projet. Bienvenue sur mon site web!</p>
+
+            <h3>Voici un petit résumé sur moi...</h3>
+
+            <p>J'ai travaillé pour 15 mois comme cheffe de projet développement auprès de l'entreprise Gasser Media SA au Locle. Pendant cette période, j'ai acquis mes compétences dans la gestion de projet, en utilisant la méthodologie Agile, en gérant différent projet du département.</p>
+
+            <p>En 2015, j'ai obtenu le Bachelor en ingénierie des médias avec une spécialisation en gestion des médias imprimés et interactifs.</p>
+
+            <p>Dynamique et créative, avec une année d’expérience, à la recherche de nouvelles opportunités dans la gestion de projet. Autonome, avec sens de responsabilité et un bon sens de l’humour, cette cheffe de projet multilingue est un membre idéal de toute équipes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Experiences -->
+    <section id="experiences" class="parallax">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center" style="padding-bottom: 100px;">
+            <h2 class="section-heading-light text-uppercase">Expériences</h2>
+            <hr class="line">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/logo_GM.png" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading-light">
+                    <h4>Avril 2017 - Février 2018</h4>
+                    <h4 class="subheading-light">Cheffe de projet développement</h4>
+                  </div>
+                  <div class="timeline-body-light">
+                    <p>Gestion et coordination de différents projets avec la méthodologie Agile et gestion de l’équipe du développement.
+                    <br>
+                    Gestion de projet pour le développement du PIM (Product Information Management) pour des prestigieuses marques de montres
+                    <br>
+                    Gestion de projet pour le développement de Data Solution, qui permet de générer et créer des catalogues personnalisés
+                    <br>
+                    Gestion de projet pour un application pour le tourisme en Suisse.</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/logo_GM.png" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading-light">
+                    <h4>Décembre 2016 - Mars 2017</h4>
+                    <h4 class="subheading-light">Stagiaire en cheffe de projet développement</h4>
+                  </div>
+                  <div class="timeline-body-light">
+                    <p>Trois mois de stage dans la gestion de projet du département développement auprès de l'entreprise Gasser Media SA, Le Locle</p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <h4>Soit part
+                    <br>de mon
+                    <br>histoire!</h4>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Education -->
+    <section id="education">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center" style="padding-bottom: 100px;">
+            <h2 class="section-heading text-uppercase">Formation</h2>
+            <hr class="line">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="education">
+              <li>
+                <div class="education-image">
+                  <img class="rounded-circle img-fluid" src="img/graduation-icon.png" alt="">
+                </div>
+                <div class="education-panel">
+                  <div class="education-heading-light">
+                    <h4>2011 - 2015</h4>
+                    <h4 class="subheading-light">Bachelor of Science HES-SO en Ingénierie des médias</h4>
+                  </div>
+                  <div class="education-body">
+                    <p>Avec orientation en gestion des médias imprimés et interactifs à la Haute Ecole d’Ingénierie et de Gestion du Canton de Vaud ,Yverdon-les-Bains</p>
+                  </div>
+                </div>
+              </li>
+              <li class="education-inverted">
+                <div class="education-image">
+                  <img class="rounded-circle img-fluid" src="img/book-icon.png" alt="">
+                </div>
+                <div class="education-panel">
+                  <div class="education-heading-light">
+                    <h4>2007 - 2011</h4>
+                    <h4 class="subheading-light">Certificat de capacité en informatique CFC avec maturité professionnelle</h4>
+                  </div>
+                  <div class="education-body">
+                    <p>École des Arts et Métiers, Lugano-Trevano</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="parallax2"> 
+      <div>
+      </div> 
+    </section>
+    <!--Skills-->
+    <section id="skills">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center" style="padding-bottom: 100px;">
+            <h2 class="section-heading-light text-uppercase">Compétences</h2>
+            <hr class="line">
+          </div>
+        </div>
+              <div class="row text-center">
+                <div class="col-md-4 skills-heading">
+                  <span class="fa-stack fa-4x skills-img">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fas fa-tasks fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <h4>Gestion de projet</h4>
+                  <p class="subheading">Gestion de projet et d'équipe avec la méthodologie Agile (SCRUM) en utilisant le logiciel Jira.</p>
+                </div>
+                <div class="col-md-4 skills-heading">
+                  <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fa fas fa-users fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <h4>Contact client</h4>
+                  <p class="subheading">Communication, écoute active et support</p>
+                </div>
+                <div class="col-md-4 skills-heading">
+                  <span class="fa-stack fa-4x skills-img">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fas fa-code fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <h4>Développement web</h4>
+                  <p class="subheading">HTML5, CSS3, Sass, Jquery, Bootstrap, WordPress et Typo3</p>
+                </div>
+              </div>   
+              <div class="row text-center">
+                <div class="col-md-4 skills-heading">
+                  <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fa fa-paint-brush fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <h4>Design</h4>
+                  <p class="subheading">UI / UX design, InDesign, Illustrator, Photoshop, Sketch, Mockups</p>
+                </div>
+                <div class="col-md-4 skills-heading">
+                  <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fa fas fa-keyboard fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <h4>Office</h4>
+                  <p class="subheading">MS Word, MS Excel, MS PowerPoint et Keynote</p>
+                </div>
+                <div class="col-md-4 skills-heading">
+                  <span class="fa-stack fa-4x">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fa fa-sitemap fa-stack-1x fa-inverse"></i>
+                  </span>
+                  <h4>Organisation</h4>
+                  <p class="subheading">Autonome ou en équipe, avec sens de responsablité</p>
+                </div>
+              </div>   
+      </div>
+    </section>
+    <!-- Portfolio -->
+    <section class="bg-light" id="portfolio">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center" style="padding-bottom: 100px;">
+            <h2 class="section-heading text-uppercase">Portfolio</h2>
+            <hr class="line">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal">
+              <!--<div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>-->
+              <img class="img-fluid" src="img/portfolio/Aimerlire.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Aimerlire</h4>
+              <p class="text-muted">Gestion, coordination et réalisation du projet</p>
             </div>
-            <div class="row">
-              <h3 class="title-skills-icon">Web Development</h3>
-              <p class="p-skills">HTML5, CSS3, Jquery, Bootstrap, WordPress and Typo3</p>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal">
+              <!--<div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>-->
+              <img class="img-fluid" src="img/portfolio/GF.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Greubel Forsey</h4>
+              <p class="text-muted">Gestion et coordination du projet</p>
             </div>
-          </div>              
-          <div class="col-sm-4 col-md-4 col-lg-4 marginBottom-skills">
-            <div class="row circle circle2 p80 center">
-              <img src="img/icons/office-icon.png" class="icon-set-skills">
-              <div class="slice">
-                <div class="bar"></div>
-                <div class="fill"></div>
-              </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal">
+              <!--<div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>-->
+              <img class="img-fluid" src="img/portfolio/Ecopharma.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Ecopharma</h4>
+              <p class="text-muted">Gestion, coordination du projet et traitement des données</p>
             </div>
-            <div class="row">
-              <h3 class="title-skills-icon">Office</h3>
-              <p class="p-skills">MS Word, MS Excel, MS PowerPoint et Keynote</p>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal">
+              <!--<div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>-->
+              <img class="img-fluid" src="img/portfolio/Dixi.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Dixipolytool</h4>
+              <p class="text-muted">Gestion et coordiantion du projet</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal">
+              <!--<div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>-->
+              <img class="img-fluid" src="img/portfolio/SATG.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Swiss Art To Go</h4>
+              <p class="text-muted">Gestion et coordination du projet</p>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-6 portfolio-item">
+            <a class="portfolio-link" data-toggle="modal">
+              <!--<div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <i class="fa fa-plus fa-3x"></i>
+                </div>
+              </div>-->
+              <img class="img-fluid" src="img/portfolio/Promo.jpg" alt="">
+            </a>
+            <div class="portfolio-caption">
+              <h4>Music Festival Promo</h4>
+              <p class="text-muted">Gestion, coordination et réalisation du projet</p>
             </div>
           </div>
         </div>
       </div>
     </section>
-    <section id="portfolio">
-      <h2 class="text-center">Portfolio</h2>
-      <div class="container-fluid container-portfolio">
-
-        <div class="row">
-          <div class="col-sm-4 col-md-4 col-lg-4 portfolio-item">
-            <a class="portfolio-link hovereffect overlay" href="#portfolioModal1" data-toggle="modal">
-              <img class="img-responsive img-centered porfolio-img-thumb" src="img/portfolio/Aimerlire.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-sm-4 col-md-4 col-lg-4 portfolio-item">
-            <a class="portfolio-link hovereffect overlay" href="#portfolioModal2" data-toggle="modal">
-              <img class="img-responsive img-centered porfolio-img-thumb" src="img/portfolio/Promo.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-sm-4 col-md-4 col-lg-4 portfolio-item">
-            <a class="portfolio-link hovereffect overlay" href="#portfolioModal3 " data-toggle="modal">
-              <img class="img-responsive img-centered porfolio-img-thumb" src="img/portfolio/Dixi.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-sm-4 col-md-4 col-lg-4 portfolio-item">
-            <a class="portfolio-link hovereffect overlay" href="#portfolioModal4" data-toggle="modal">
-              <img class="img-responsive img-centered porfolio-img-thumb" src="img/portfolio/SATG.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-sm-4 col-md-4 col-lg-4 portfolio-item">
-            <a class="portfolio-link hovereffect overlay" href="#portfolioModal5" data-toggle="modal">
-              <img class="img-responsive img-centered porfolio-img-thumb" src="img/portfolio/Ecopharma.jpg" alt="">
-            </a>
-          </div>
-          <div class="col-sm-4 col-md-4 col-lg-4 portfolio-item">
-            <a class="portfolio-link hovereffect overlay" href="#portfolioModal6" data-toggle="modal">
-              <img class="img-responsive img-centered porfolio-img-thumb" src="img/portfolio/Peristyle.jpg" alt="">
-            </a>
-          </div>
-        </div>
-      </div>
+    <section id="parallax3"> 
+      <div class="container">
+          <div class="row">
+            <div class="col-lg-12 text-center" style="padding-bottom: 100px;">
+              <hr class="line">
+              <h2 class="section-heading-parallax text-uppercase">Autonome, avec sens de responsabilité et un bon sens de l’humour, cette cheffe de projet multilingue est un membre idéal de toute équipes.</h2>
+              <hr class="line">
+            </div>
+      </div> 
     </section>
+
     <section id="contact">
-      <header id="header-contact">
-        <h2 id="title-contact">Contact</h2>
-      </header>
-      <div class="container-fluid" id="container-contact">
+      <div class="container">
         <div class="row">
-          <div class="col-sm-6 col-md-6">
-            <div class="row">
-              <img src="img/icons/mail-icon.png" class="icon-set-contact" id="icon-email">
-            </div>
-            <div class="row text-contact" id="text-email">
-              <h4>natalie.canonicaATgmail.com</h4>
-            </div>   
+          <div class="col-lg-12 text-center" style="padding-bottom: 100px;">
+            <h2 class="section-heading-light text-uppercase">Contact</h2>
+            <hr class="line">
           </div>
-          <div class="col-sm-6 col-md-6" id="row-two">
-            <div class="row">
-              <img src="img/icons/linkedin-icon.png" class="icon-set-contact">
-            </div>
-            <div class="row text-contact">
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-md-6 text-center contact-heading-light">
+              <span class="fas fa-envelope fa-4x"></span>
+              <h4>natalie.canonicaATgmail.com</h4> 
+          </div>
+          <div class="col-sm-6 col-md-6 text-center contact-heading-light">
+              <span class="fab fa-linkedin-in fa-4x"></span>
               <h4>nataliecanonica</h4>
-            </div>
           </div>   
         </div>
       </div>
     </section>
     <footer>
-      <a href="#home"><span class="glyphicon glyphicon-menu-up" aria-hidden="true" id="menu-up"></span></a>
-      <div id="copyright">© 2017 Natalie Canonica</div> 
+      <div id="copyright" class="text-center">© 2018 Natalie Canonica</div> 
     </footer>
 
-    <!-- Modal -->
-    <!-- AIMERLIRE -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="modal-header">
-            <h2 class="modal-title">Aimer lire</h2>
-          </div>
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-md-2">
-              </div>
-              <div class="col-md-8">
-                <div class="modal-body">
-                  <img class="img-fluid img-centered" src="img/portfolio/Aimerlire.jpg" alt="">
-                  <p>
-                    Aimerlire is the digitalised version of the magazine. This project is my first big projet. I manage the all aspect of the developement. The web site is updated every three months and I deal with the image processing, the data preparation and to fill in the texte and the page layout of the articles.
-                  </p>
-                  <a class="btn btn-orange" href="http://www.aimerlire.ch/" role="button" target="_blank">Go to the website</a>
-                </div>
-                <div class="col-md-2">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Promo Le Locle -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="close-modal" data-dismiss="modal">
-            <div class="lr">
-              <div class="rl"></div>
-            </div>
-          </div>
-          <div class="modal-header">
-            <h2 class="modal-title">Music Festival Promo</h2>
-          </div>
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-md-2">
-              </div>
-              <div class="col-md-8">
-                <div class="modal-body">
-                  <img class="img-fluid img-centered" src="img/portfolio/Promo.jpg" alt="">
-                  <p>
-                   The Festival Promo is a Music festival in Le Locle. In this projet I modified the design of the web site and I feld in all the contents, images and texts. The CMS used is Typo3 and this project allowed me to begin to know and to use it.
-                 </p>
-                 <a class="btn btn-orange" href="http://www.festivalpromo.ch/" role="button" target="_blank">Go to the website</a>
-               </div>
-               <div class="col-md-2">
-               </div>
-             </div>
-           </div>
-         </div>
-       </div>
-     </div>
-   </div>
-   <!-- Dixipolytool -->
-   <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="modal-header">
-          <h2 class="modal-title">Dixi Polytool</h2>
-        </div>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-2">
-            </div>
-            <div class="col-md-8">
-              <div class="modal-body">
-                <img class="img-fluid img-centered" src="img/portfolio/Dixi.jpg" alt="">
-                <p>
-                  This project is the web site of the company Dixipolytool and I managed the second part of the development. I was the reference person for the client and I helped to fill in the text. At the moment I help with the support tasks.
-                </p>
-                <a class="btn btn-orange" href="http://www.dixipolytool.ch/" role="button" target="_blank">Go to the website</a>
-              </div>
-              <div class="col-md-2">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- SATG -->
-  <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="modal-header">
-          <h2 class="modal-title">Swiss Art To Go</h2>
-        </div>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-2">
-            </div>
-            <div class="col-md-8">
-              <div class="modal-body">
-                <img class="img-fluid img-centered" src="img/portfolio/SATG.jpg" alt="">
-                <p>
-                  SATG (Swiss Art To Go) is an application for smartphome who allows to find point of interests around your geographical postion and who allows to create personalized itineraries. It's the digitised version of the five volumes of the Artistic Guide to Switzerland. In this project I am the reference person and I manage the updates of the application.
-                </p>
-                <a class="btn btn-orange" href="http://www.satg.ch/" role="button" target="_blank">Go to the website</a>
-              </div>
-              <div class="col-md-2">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Ecopharma -->
-  <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="modal-header">
-          <h2 class="modal-title">Ecopharma</h2>
-        </div>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-2">
-            </div>
-            <div class="col-md-8">
-              <div class="modal-body">
-                <img class="img-fluid img-centered" src="img/portfolio/Ecopharma.jpg" alt="">
-                <p>
-                  In this projet I updated the contents in the web site and I am the reference person for the client.
-                </p>
-                <a class="btn btn-orange" href="http://www.ecopharma.ch/" role="button" target="_blank">Go to the website</a>
-              </div>
-              <div class="col-md-2">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- Peristyle -->
-  <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog" role="document">
-      <div class="modal-content">
-        <div class="close-modal" data-dismiss="modal">
-          <div class="lr">
-            <div class="rl"></div>
-          </div>
-        </div>
-        <div class="modal-header">
-          <h2 class="modal-title">Peristyle</h2>
-        </div>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-md-2">
-            </div>
-            <div class="col-md-8">
-              <div class="modal-body">
-                <img class="img-fluid img-centered" src="img/portfolio/Peristyle.jpg" alt="">
-                <p>
-                  Peristyle is a virtual library and an edition instrument that allows to create your personal review and to transform a normal Word in a e-books. In this projet I take care the file Word for correct them for being able to insert them in the Peristyle platform.
-                </p>
-                <a class="btn btn-orange" href="http://www.peristyle.ch/" role="button" target="_blank">Go to the website</a>
-              </div>
-              <div class="col-md-2">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="bootstrap/dist/js/bootstrap.min.js"></script>
 
-
-
-  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <!-- Include all compiled plugins (below), or include individual files as needed -->
-  <script src="bootstrap/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/main.js"></script>
-  <script type="text/javascript" src="js/grid.js"></script>
-  <!--<script type="text/javascript" src="js/noframework.waypoints.min.js"></script>-->
-  <script>
-    $(function() {
-      Grid.init();
-    });
-  </script>
-
-</body>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
 </html>
-
