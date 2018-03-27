@@ -585,8 +585,8 @@ header.masthead {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
-  #parallax2 h2 {
-    font-family: 'NothingYouCouldDo'; }
+  #parallax2 div {
+    height: 250px; }
 
 #parallax3 {
   /* The image used */
