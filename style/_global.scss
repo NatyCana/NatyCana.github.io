@@ -1,42 +1,36 @@
 /* fonts */
 @font-face{
-    font-family: 'EurostileLTStd';
-    src: url("../font/EurostileLTStd.otf");
-}
-@font-face{
-    font-family: 'EurostileLTStd-Cn';
-    src: url("../font/EurostileLTStd-Cn.otf");
-}
-@font-face{
-    font-family: 'EurostileLTStd-Bold';
-    src: url("../font/EurostileLTStd-Bold.otf");
-}
-@font-face{
-    font-family: 'EurostileLTStd-BoldCn';
-    src: url("../font/EurostileLTStd-BoldCn.otf");
-}
-@font-face{
-    font-family: 'EurostileLTStd-Demi';
-    src: url("../font/EurostileLTStd-Demi.otf");
+    font-family: 'FuturaStd';
+    src: url("../font/FuturaStd-Book.otf");
 }
 
 @font-face{
-    font-family: 'NothingYouCouldDo';
-    src: url("../font/NothingYouCouldDo.ttf");
+    font-family: 'FuturaStd-Bold';
+    src: url("../font/FuturaStd-Bold.otf");
+}
+
+@font-face{
+    font-family: 'FuturaStd-Demi';
+    src: url("../font/FuturaStd-Demi.otf");
+}
+
+@font-face{
+    font-family: 'FuturaStd-Medium';
+    src: url("../font/FuturaStd-Medium.otf");
 }
 
 body {
   overflow-x: hidden;
-  font-family: 'EurostileLTStd';
+  font-family: 'FuturaStd';
   background: #f5f5f4;
   color: $grayText;
 }
 
 p {
   line-height: 1.75;
-  font-family: 'EurostileLTStd'; 
-  font-size: 14px;
-  text-align: justify;
+  font-family: 'FuturaStd'; 
+  font-size: 16px;
+  //text-align: left;
 
 }
 
@@ -114,9 +108,25 @@ footer{
   #copyright {
       margin-top: 0;
       color: $white;
-      font-family: 'EurostileLTStd';
+      font-family: 'FuturaStd';
       font-size: 16px;
   }
+}
+
+.zoom-background {
+  position: absolute; top: 0; left: 0;
+  height: 100%; width: 100%;
+  background-size: cover; background-position: 50% 50%;
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    @extend .zoom-background-hover;
+  }
+}
+
+.zoom-background-hover {
+  transform: scale(1.05);
+  transition-duration: 0.5s;
 }
 
 @media(min-width:768px) {
