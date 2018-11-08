@@ -1,3 +1,21 @@
+//Photo by Green Chameleon on Unsplash
+#parallax {
+ /* The image used */
+    background-image: url('../img/parallax1.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    div{
+        height: 250px;
+    }
+}
+
 .education {
   position: relative;
   padding: 0;
@@ -62,11 +80,11 @@
     h4 {
       margin-top: 0;
       color: inherit;
-      font-family: 'EurostileLTStd';
+      font-family: 'FuturaStd';
       font-size: 16px;
       &.subheading {
         text-transform: none;
-        font-family: 'NothingYouCouldDo';
+        font-family: 'FuturaStd-Medium';
         font-size: 22px;
       }
     }
@@ -75,11 +93,11 @@
     h4 {
       margin-top: 0;
       color: $primary;
-      font-family: 'EurostileLTStd';
+      font-family: 'FuturaStd';
       font-size: 16px;
       &.subheading-light {
         text-transform: none;
-        font-family: 'NothingYouCouldDo';
+        font-family: 'FuturaStd-Medium';
         font-size: 22px;
       }
     }
@@ -88,7 +106,7 @@
      > ul,
     > p {
       margin-bottom: 0;
-      font-family: 'EurostileLTStd';
+      font-family: 'FuturaStd';
       font-weight: 300;
     }
   }
@@ -97,7 +115,7 @@
     > p {
       margin-bottom: 0;
       color: white;
-      font-family: 'EurostileLTStd';
+      font-family: 'FuturaStd';
       font-weight: 300;
     }
   }

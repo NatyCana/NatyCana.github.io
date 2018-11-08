@@ -4,15 +4,20 @@
   img {
     width: 300px;
     height: 300px;
+    margin-top: 50px;
   }
   #resume{
     h3{
-      font-family: 'NothingYouCouldDo';
+      font-family: 'FuturaStd-Medium';
       color: $primary;
     }
   }
   
 }
+
+/* ====================================================== */
+/* ======================== MEDIA ======================= */
+/* ====================================================== */
 
 @media(max-width:768px) {
   .aboutme {
