@@ -209,34 +209,34 @@
 /*iPhone X in portrait & landscape*/
 @media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3)  {
     .parallax {
-        background-attachment:scroll;
+        background-attachment:fixed;
     }
 }
 
 /*iPhone 6, 7, & 8 in portrait & landscape*/
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px)  {
     .parallax {
-        background-attachment:scroll;
+        background-attachment:fixed;
     }
 }
 
 /*iPhone 6 Plus in portrait & landscape*/
 @media only screen and (min-device-width : 414px) and (max-device-width : 736px) {
     .parallax {
-        background-attachment:scroll;
+        background-attachment:fixed;
     }
 }
 
 /*iPhone 5 & 5S in portrait & landscape*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
     .parallax {
-        background-attachment:scroll;
+        background-attachment:fixed;
     }
 }
 
 /*Phone 2G-4S in portrait & landscape*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .parallax {
-        background-attachment:scroll;
+        background-attachment:fixed;
     }
 }
