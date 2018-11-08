@@ -10,8 +10,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
     div{
-        height: 250px;
+    height: 250px;
     }
 }
 
@@ -30,7 +31,7 @@
     background-size: cover;
 
     h2{
-      font-family: 'FuturaStd-Medium';
+      font-family: 'NothingYouCouldDo';
       /*color: $gray900;*/
       color: white;
     }
@@ -43,12 +44,12 @@
     margin: 15px 0;
     text-transform: none;
     color: white;    
-    font-family: 'FuturaStd-Medium';
+    font-family: 'NothingYouCouldDo';
     font-size: 22px;
   }
   p{
         text-transform: none;
-        font-family: 'FuturaStd';
+        font-family: 'EurostileLTStd';
         font-size: 16px;
         color: white;
         text-align: center;
@@ -69,7 +70,6 @@
     .carousel-control-prev, .carousel-control-next{
       color: $grayText;
       width: 0;
-      margin-left: -20px;
     }
   }
 }
@@ -79,69 +79,54 @@
 }
 
 /* ====================================================== */
-/* ======================== MEDIA ======================= */
-/* ====================================================== */
-
-@media(max-width:768px) {
-    #skills-carousel{
-        .carousel-control-prev, .carousel-control-next{
-          margin-left: 10px;
-        }
-    }
-}
-
-@media(max-width: 991px) and (min-width: 768px) {
-}
-
-/* ====================================================== */
 /* ======================== MEDIA IPAD AND IPHONE ======================= */
 /* ====================================================== */
 /* iPad in portrait & landscape*/
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  {
-    .parallax2 {
+    #parallax2 {
         background-attachment:scroll;
     }
-    .parallax3 {
+    #parallax3 {
         background-attachment:scroll;
     }
 }
 
 /*iPhone 6 in portrait & landscape*/
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
-    .parallax2 {
+    #parallax2 {
         background-attachment:scroll;
     }
-    .parallax3 {
+    #parallax3 {
         background-attachment:scroll;
     }
 }
 
 /*iPhone 6 Plus in portrait & landscape*/
 @media only screen and (min-device-width : 414px) and (max-device-width : 736px) {
-    .parallax2 {
+    #parallax2 {
         background-attachment:scroll;
     }
-    .parallax3 {
+    #parallax3 {
         background-attachment:scroll;
     }
 }
 
 /*iPhone 5 & 5S in portrait & landscape*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 568px) {
-    .parallax2 {
+    #parallax2 {
         background-attachment:scroll;
     }
-    .parallax3 {
+    #parallax3 {
         background-attachment:scroll;
     }
 }
 
 /*Phone 2G-4S in portrait & landscape*/
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    .parallax2 {
+    #parallax2 {
         background-attachment:scroll;
     }
-    .parallax3 {
+    #parallax3 {
         background-attachment:scroll;
     }
 }

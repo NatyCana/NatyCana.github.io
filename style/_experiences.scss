@@ -1,16 +1,19 @@
-#experiences{
-    background: #292929;
-  .skills-heading {
-  h4{
-    margin: 15px 0;
-    text-transform: none;
-    color: white;    
-    font-family: 'FuturaStd-Medium';
-    font-size: 22px;
-    }
-  }
+//Photo by Green Chameleon on Unsplash
+.parallax {
+    /* The image used */
+    background-image: url('../img/parallax1.jpg');
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
+//---------Time line --------//
 .timeline {
   position: relative;
   padding: 0;
@@ -99,11 +102,11 @@
     h4 {
       margin-top: 0;
       color: inherit;
-      font-family: 'FuturaStd';
+      font-family: 'EurostileLTStd';
       font-size: 16px;
       &.subheading {
         text-transform: none;
-        font-family: 'FuturaStd-Bold';
+        font-family: 'NothingYouCouldDo';
         font-size: 22px;
       }
     }
@@ -112,11 +115,11 @@
     h4 {
       margin-top: 0;
       color: $primary;
-      font-family: 'FuturaStd';
+      font-family: 'EurostileLTStd';
       font-size: 16px;
       &.subheading-light {
         text-transform: none;
-        font-family: 'FuturaStd-Bold';
+        font-family: 'NothingYouCouldDo';
         font-size: 22px;
       }
     }
@@ -125,7 +128,7 @@
      > ul,
     > p {
       margin-bottom: 0;
-      font-family: 'FuturaStd';
+      font-family: 'EurostileLTStd';
       font-weight: 300;
     }
   }
@@ -134,7 +137,7 @@
     > p {
       margin-bottom: 0;
       color: white;
-      font-family: 'FuturaStd';
+      font-family: 'EurostileLTStd';
       font-weight: 300;
     }
   }

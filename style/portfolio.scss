@@ -1,4 +1,4 @@
-
+// Styling for the portfolio section
 #portfolio {
   .portfolio-item {
     right: 0;
@@ -40,36 +40,7 @@
         }
       }
     }
-    .hovereffect {
-      width:100%;
-      height:100%;
-      float:left;
-      overflow:hidden;
-      position:relative;
-      text-align:center;
-      cursor:default;
-      display:block;
-      position:relative;
-      -webkit-transition:all .4s linear;
-      transition:all .4s linear;
-      &:hover{
-        -ms-transform:scale(1.2);
-        -webkit-transform:scale(1.2);
-        transform:scale(1.2);
-      }
-      img {
-        display:block;
-        position:relative;
-        -webkit-transition:all .4s linear;
-        transition:all .4s linear;
-        &:hover{
-          -ms-transform:scale(1.2);
-          -webkit-transform:scale(1.2);
-          transform:scale(1.2);
-        }
-      }
-    }
-    .portfolio-text {
+    .portfolio-caption {
       max-width: 400px;
       margin: 0 auto;
       padding: 25px;
@@ -89,6 +60,14 @@
   }
   * {
     z-index: 2;
+  }
+}
+
+@media(min-width:767px) {
+  #portfolio {
+    .portfolio-item {
+      margin: 0 0 30px;
+    }
   }
 }
 
@@ -163,13 +142,5 @@
   }
   .modal-backdrop {
 
-  }
-}
-
-@media(min-width:767px) {
-  #portfolio {
-    .portfolio-item {
-      margin: 0 0 30px;
-    }
   }
 }
