@@ -106,7 +106,17 @@
     }
 }
 
-/*iPhone 6 in portrait & landscape*/
+/*iPhone X in portrait & landscape*/
+@media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3)  {
+    .parallax2 {
+        background-attachment:scroll;
+    }
+    .parallax3 {
+        background-attachment:scroll;
+    }
+}
+
+/*iPhone 6, 7, & 8 in portrait & landscape*/
 @media only screen and (min-device-width : 375px) and (max-device-width : 667px) {
     .parallax2 {
         background-attachment:scroll;

@@ -279,6 +279,45 @@ header.masthead .intro-text .intro-heading-worktitle {
     font-size: 40px;
   }
 }
+/* ====================================================== */
+/* ======================== MEDIA IPAD AND IPHONE ======================= */
+/* ====================================================== */
+/* iPad in portrait & landscape*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  header.masthead {
+    background-attachment: scroll;
+  }
+}
+/*iPhone X in portrait & landscape*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .header.masthead {
+    background-attachment: scroll;
+  }
+}
+/*iPhone 6, 7, & 8 in portrait & landscape*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  header.masthead {
+    background-attachment: scroll;
+  }
+}
+/*iPhone 6 in portrait & landscape*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  header.masthead {
+    background-attachment: scroll;
+  }
+}
+/*iPhone 5 & 5S in portrait & landscape*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  header.masthead {
+    background-attachment: scroll;
+  }
+}
+/*Phone 2G-4S in portrait & landscape*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  header.masthead {
+    background-attachment: scroll;
+  }
+}
 .aboutme {
   padding-top: 8%;
   text-align: left;
@@ -523,7 +562,7 @@ header.masthead .intro-text .intro-heading-worktitle {
     background-attachment: scroll;
   }
 }
-/*iPhone 6 in portrait & landscape*/
+/*iPhone 6, 7, & 8 in portrait & landscape*/
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
   .parallax {
     background-attachment: scroll;
@@ -728,6 +767,45 @@ header.masthead .intro-text .intro-heading-worktitle {
     padding: 0 100px 20px 20px;
   }
 }
+/* ====================================================== */
+/* ======================== MEDIA IPAD AND IPHONE ======================= */
+/* ====================================================== */
+/* iPad in portrait & landscape*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+/*iPhone X in portrait & landscape*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+/*iPhone 6, 7, & 8 in portrait & landscape*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+/*iPhone 6 Plus in portrait & landscape*/
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+/*iPhone 5 & 5S in portrait & landscape*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+/*Phone 2G-4S in portrait & landscape*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
 #parallax2 {
   /* The image used */
   background-image: url("../img/parallax2.jpg");
@@ -815,7 +893,17 @@ header.masthead .intro-text .intro-heading-worktitle {
     background-attachment: scroll;
   }
 }
-/*iPhone 6 in portrait & landscape*/
+/*iPhone X in portrait & landscape*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .parallax2 {
+    background-attachment: scroll;
+  }
+
+  .parallax3 {
+    background-attachment: scroll;
+  }
+}
+/*iPhone 6, 7, & 8 in portrait & landscape*/
 @media only screen and (min-device-width: 375px) and (max-device-width: 667px) {
   .parallax2 {
     background-attachment: scroll;
